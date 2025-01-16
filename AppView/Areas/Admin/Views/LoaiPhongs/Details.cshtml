@@ -1,0 +1,221 @@
+﻿@model AppData.LoaiPhong
+
+@{
+    ViewData["Title"] = "Chi Tiết Loại Phòng";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .form-section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+            .form-section h5 {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-custom {
+            background-color: #007bff;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+            .btn-custom:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+            .btn-danger:hover {
+                background-color: #b02a37;
+            }
+
+        .image-preview {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .publish-section {
+            text-align: right;
+        }
+
+        #description {
+            max-height: 150px;
+            overflow-y: auto;
+            resize: none;
+        }
+
+        .info-box {
+            background-color: #ffffff; /* Màu nền của khung */
+            border: 1px solid #dee2e6; /* Đường viền */
+            border-radius: 8px; /* Bo góc */
+            padding: 15px; /* Khoảng cách bên trong */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+            margin-bottom: 20px; /* Khoảng cách với các phần tử khác */
+        }
+
+            .info-box .row {
+                display: flex;
+                align-items: center; /* Căn giữa theo chiều dọc */
+            }
+
+            .info-box .col-sm-3 {
+                font-weight: bold; /* Chữ đậm */
+                color: #343a40; /* Màu chữ */
+            }
+
+            .info-box .col-sm-9 {
+                text-align: right; /* Căn phải giá trị */
+                color: #495057; /* Màu chữ giá trị */
+            }
+
+        .form-group .row {
+            display: flex;
+            justify-content: space-between; /* Căn khoảng cách giữa các cột */
+            align-items: center; /* Căn giữa theo chiều dọc */
+        }
+
+        .form-group .col-md-6 {
+            padding-right: 10px; /* Khoảng cách giữa các cột */
+        }
+    </style>
+</head>
+<body>
+ 
+        <form>
+            <div class="row">
+                <!-- Left Form Section -->
+                <div class="col-md-8">
+                    <div class="form-section">
+                        <h5>Thông Tin Chi Tiết Loại Phòng</h5>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-3">Tên Loại Phòng:</div>
+                                <div class="col-sm-9">@Model?.TenLoaiPhong</div>
+                            </div>
+                        </div>
+
+                    <div class="form-group">
+                        <div class="row align-items-center">
+                            <!-- Trạng thái -->
+                            <div class="col-md-12">
+                                <label for="status" class="form-label">Trạng thái </label>
+                                @if (Model.TrangThai)
+                                {
+                                    <span class="badge badge-success">Hoạt động</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-secondary">Không hoạt động</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <div class="info-box">
+                            <div class="row mb-3">
+                                <div class="col-sm-3" style="font-weight: bold; color: black;">Giá Gốc:</div>
+                                <div class="col-sm-3" style="font-size: 16px; text-align: right; color: black;">
+                                    @String.Format("{0:N0}", Model?.GiaGoc)
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-3" style="font-weight: bold; color: black;">Giá Giảm Giá:</div>
+                                <div class="col-sm-3" style="font-size: 16px; text-align: right; color: black;">
+                                    @String.Format("{0:N0}", Model?.GiaGiamGia)
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                    <div class="col-sm-3">Số Lượng Còn:</div>
+                                    <div class="col-sm-3">@Model?.SoPhongCon</div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">Size Giường:</div>
+                                    <div class="col-sm-3">@Model?.Size</div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">Số Giường:</div>
+                                    <div class="col-sm-3">@Model?.Giuong</div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+
+
+                        
+                    </div>
+                </div>
+
+                <!-- Right Publish Section -->
+                <div class="col-md-4">
+
+                    <div class="form-section">
+                        <thead>
+                            <tr>
+                                <th class="text-start">Hành Động</th>
+                            </tr>
+                        </thead>
+                        <div class="publish-section">
+
+                           @*  <button type="submit" class="btn btn-custom">Điều Chỉnh</button> *@
+                            <button asp-action="Index" type="button" class="btn btn-danger">Quay Lại</button>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">Ảnh:</div>
+                            <div class="col-sm-9">
+                                @if (!string.IsNullOrEmpty(Model?.Anh))
+                                {
+                                    <img src="~/img/room/@Model.Anh" alt="Ảnh Loại Phòng" class="img-thumbnail">
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Không có ảnh</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

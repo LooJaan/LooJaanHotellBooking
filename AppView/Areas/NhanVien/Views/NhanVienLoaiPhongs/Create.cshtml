@@ -1,0 +1,120 @@
+﻿@model AppData.LoaiPhong
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<form asp-action="Create" enctype="multipart/form-data" method="post" class=" ">
+    <div class="table-container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h8 class="text-dark">
+                <span class="fa fa-home"> </span> Trang chủ / Loại phòng / Thêm
+                mới
+            </h8>
+        </div>
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <div class="col-md-6">
+                                        <h6>Tên</h6>
+                                        <label asp-for="TenLoaiPhong" class="control-label"></label>
+                                        <input asp-for="TenLoaiPhong" class="form-control" placeholder="Enter room type name" />
+                                        <span asp-validation-for="TenLoaiPhong" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Mô tả</h6>
+                                        <div class="form-group">
+                                            <label asp-for="MoTa" class="control-label">Description</label>
+                                            <input asp-for="MoTa" class="form-control" placeholder="Enter Description" />
+                                            <span asp-validation-for="MoTa" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Hình ảnh</h6>
+                                        <div class="form-group">
+                                            <label for="imageFile" class="control-label">Upload Image</label>
+                                            <input type="file" name="imageFile" class="form-control-file" />
+                                            <span asp-validation-for="Anh" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Giá gốc</h6>
+                                        <div class="form-group">
+                                            <label asp-for="GiaGoc" class="control-label"></label>
+                                            <input asp-for="GiaGoc" class="form-control" placeholder="Enter original price" />
+                                            <span asp-validation-for="GiaGoc" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Giá đã giảm</h6>
+                                        <div class="form-group">
+                                            <label asp-for="GiaGiamGia" class="control-label"></label>
+                                            <input asp-for="GiaGiamGia" class="form-control" placeholder="Enter discounted price" />
+                                            <span asp-validation-for="GiaGiamGia" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Số lượng phòng còn</h6>
+                                        <div class="form-group">
+                                            <label asp-for="SoPhongCon" class="control-label"></label>
+                                            <input asp-for="SoPhongCon" class="form-control" placeholder="Enter available rooms" />
+                                            <span asp-validation-for="SoPhongCon" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Giường</h6>
+                                        <div class="form-group">
+                                            <label asp-for="Giuong" class="control-label"></label>
+                                            <input asp-for="Giuong" class="form-control" placeholder="Enter number of beds" />
+                                            <span asp-validation-for="Giuong" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Size giường</h6>
+                                        <div class="form-group">
+                                            <label asp-for="Size" class="control-label"></label>
+                                            <input asp-for="Size" class="form-control" placeholder="Enter room size (m²)" />
+                                            <span asp-validation-for="Size" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h6>Trạng thái</h6>
+                                        <label asp-for="TrangThai" class="control-label">Trạng thái</label>
+                                        <select asp-for="TrangThai" class="form-control">
+                                            <option value="true">Hoạt động</option>
+                                            <option value="false">Không hoạt động</option>
+                                        </select>
+                                        <span asp-validation-for="TrangThai" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Xuất bản</h5>
+                                <button type="submit" class="btn btn-primary mb-2">
+                                    <i class="fa fa-plus"> </i>
+                                    Tạo mới
+                                </button>
+                                <a asp-action="Index" class="btn btn-danger mb-2">
+                                    <i class="fa fa-backward"> </i>
+                                    Trở lại
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

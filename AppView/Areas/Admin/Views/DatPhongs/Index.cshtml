@@ -1,0 +1,229 @@
+﻿@model IEnumerable<AppData.DatPhong>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<table class="table mb-1">
+	<thead>
+		<tr>
+			<th class="text-start">Quản lý đặt phòng</th>
+		</tr>
+	</thead>
+</table>
+
+	<form method="get" action="@Url.Action("Index")" id="dateForm">
+		<table class="table mb-1">
+			<thead>
+				<tr>
+					<th>
+						<label style="color:black" for="startDate">Ngày nhận:</label>
+					<input style="width:70%; height:35px; padding:10px; border-color: rgb(231, 225, 225)"
+						   type="date"
+						   id="startDate"
+						   name="startDate"
+						   value="@ViewBag.StartDate?.ToString("yyyy-MM-dd")"
+						   required />
+					</th>
+					<th>
+						<label style="color:black" for="endDate">Ngày Trả:</label>
+					<input style="width:70%; height:35px; padding:10px; border-color: rgb(231, 225, 225)"
+						   type="date"
+						   id="endDate"
+						   name="endDate"
+						   value="@ViewBag.EndDate?.ToString("yyyy-MM-dd")"
+						   required />
+					</th>
+				<th class="text-end">
+					<input class=" fa fa-search btn btn-success" style="margin-bottom:4px" type="submit" value="Tìm kiếm" />
+					<a href="@Url.Action("ExportToExcel", new { startDate = ViewBag.StartDate, endDate = ViewBag.EndDate })" class="btn btn-primary" style="margin-bottom:4px">
+						Xuất Excel
+					</a>
+				</th>
+				</tr>
+			</thead>
+		</table>
+	</form>
+
+	<div class="table-scrollable">
+		<table class="table table-bordered ">
+			<thead>
+				<tr>
+					<th class="text-center " style="color: black">
+						Khách hàng
+					</th>
+					<th class="text-center " style="color: black">
+						Số điện thoại
+					</th>
+					<th class="text-center " style="color: black">
+						Ngày đặt
+					</th>
+					<th class="text-center " style="color: black">
+						Ngày nhận
+					</th>
+					<th class="text-center " style="color: black">
+						Ngày trả
+					</th>
+					<th class="text-center " style="color: black">
+						Số lượng phòng
+					</th>
+					<th class="text-center " style="color: black">
+						Ghi chú
+					</th>
+					<th class="text-center " style="color: black">
+						Loại phòng
+					</th>
+					<th class="text-center " style="color: black">
+						Hành động
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.KhachHang)
+						</td>
+						@* <td>
+						@Html.DisplayFor(modelItem => item.CCCD)
+					</td> *@
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.SoDienThoai)
+						</td>
+					
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.NgayDat)
+						</td>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.NgayNhan)
+						</td>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.NgayTra)
+						</td>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.SoLuongPhong)
+						</td>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.GhiChu)
+						</td>
+						<td style="color: black">
+							@Html.DisplayFor(modelItem => item.LoaiPhong.TenLoaiPhong)
+						</td>
+						<td class="text-center">
+							<a asp-action="Details" asp-route-id="@item.ID" class="btn btn-info btn-sm">
+								<i class="fa fa-eye" aria-hidden="true"></i>
+							</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		
+
+		</table>
+</div>
+
+</div>
+
+<script>
+	function validateDates(event) {
+		const startDate = document.getElementById("startDate").value;
+		const endDate = document.getElementById("endDate").value;
+
+		if (!startDate || !endDate) {
+			alert("Vui lòng nhập đầy đủ Ngày Nhận và Ngày Trả.");
+			event.preventDefault(); // Ngăn chặn gửi form
+			return false;
+		}
+
+		if (new Date(endDate) < new Date(startDate)) {
+			alert("Ngày Trả không được nhỏ hơn Ngày Nhận.");
+			event.preventDefault(); // Ngăn chặn gửi form
+			return false;
+		}
+
+		return true;
+	}
+
+	// Liên kết sự kiện `submit` cho form
+	document.getElementById("dateForm").addEventListener("submit", validateDates);
+</script>
+
+<style>
+	.search-form {
+		display: flex;
+		flex-direction: column;
+		max-width: 400px;
+		margin: 20px auto;
+		padding: 20px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		background-color: #f9f9f9;
+	}
+
+		.search-form label {
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		.search-form input[type="date"] {
+			padding: 10px;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+		}
+
+		.search-form input[type="submit"] {
+			padding: 10px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+			.search-form input[type="submit"]:hover {
+				background-color: #0056b3;
+			}
+	.btn-create {
+		background-color: #17a2b8;
+		color: white;
+	}
+
+		.btn-create:hover {
+			background-color: #138496;
+			color: white;
+		}
+
+	.pagination {
+		display: flex;
+		justify-content: center; /* Căn giữa */
+		margin: 20px 0; /* Khoảng cách trên và dưới */
+	}
+
+		.pagination a {
+			padding: 10px 15px; /* Khoảng cách bên trong */
+			margin: 0 5px; /* Khoảng cách giữa các liên kết */
+			text-decoration: none; /* Bỏ gạch chân */
+			color: #ffffff; /* Màu chữ trắng */
+			background-color: #00B2B2; /* Màu nền teal */
+			border: 1px solid #00B2B2; /* Đường viền màu teal */
+			border-radius: 5px; /* Bo góc */
+			transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+		}
+
+			.pagination a:hover {
+				background-color: #008B8B; /* Màu nền khi hover (màu tối hơn) */
+				color: #ffffff; /* Màu chữ trắng khi hover */
+			}
+
+		.pagination .active {
+			background-color: #008B8B; /* Màu nền cho trang hiện tại (màu tối hơn) */
+			color: white; /* Màu chữ cho trang hiện tại */
+			border: 1px solid #006666; /* Đường viền cho trang hiện tại (màu tối hơn) */
+		}
+</style>
+
+

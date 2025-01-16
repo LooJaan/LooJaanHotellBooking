@@ -1,0 +1,19 @@
+﻿@model IEnumerable<AppView.ViewModels.LoaiPhongVM>
+
+
+@foreach (var loaiPhong in Model.Take(6))
+{
+    if (loaiPhong.TrangThai && !loaiPhong.Xoa)
+    {
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="hotel-room text-center">
+
+                <a href="@Url.Action("Create", "Booking", new { id = loaiPhong.MaLoaiPhong })" class="d-block mb-0 thumbnail"><img src="~/img/room/@loaiPhong.Anh" alt="Image" class="img-fluid"></a>
+                <div class="hotel-room-body">
+                    <h3 class="heading mb-0"><a href="@Url.Action("Create", "Booking", new { id = loaiPhong.MaLoaiPhong })">@loaiPhong.TenLoaiPhong</a></h3>
+                    <strong class="price">@loaiPhong.GiaGoc.ToString("0.#") / Đêm</strong>
+                </div>
+            </div>
+        </div>
+    }
+}

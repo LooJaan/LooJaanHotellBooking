@@ -1,0 +1,84 @@
+﻿@model AppData.TaiKhoann
+
+@{
+    ViewData["Title"] = "Edit Account";
+}
+
+<style>
+    label {
+        color: black;
+    }
+</style>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post" class=" ">
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-start">Chỉnh sửa Tài khoản</th>
+            </tr>
+        </thead>
+    </table>
+        
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <input type="hidden" asp-for="ID" />
+                                    <div class="col-md-6">
+                                        
+                                        <label asp-for="TaiKhoan" class="control-label">Tên tài khoản</label>
+                                        <input asp-for="TaiKhoan" class="form-control" />
+                                        <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <label asp-for="MatKhau" class="control-label">Mật khẩu</label>
+                                            <input asp-for="MatKhau" class="form-control" type="password" />
+                                            <span asp-validation-for="MatKhau" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        
+                                        <div class="form-group">
+                                            <label asp-for="Quyen" class="control-label"> Tên quyền</label>
+                                            <select asp-for="Quyen" class="form-control">
+                                                <option value="">Chọn quyền</option>
+                                                <option value="admin">admin</option>
+                                            <option value="nhanvien">nhanvien</option>
+                                                <option value="khachhang">khachhang</option>
+                                            </select>
+                                            <span asp-validation-for="Quyen" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Hành động</h5>
+                                <button type="submit" class="btn btn-primary mb-2">
+                                    <i class="fa fa-save"> </i>
+                                    Lưu
+                                </button>
+                                <a asp-action="Index" class="btn btn-danger mb-2">
+                                <i class="fa fa-arrow-left"> </i>
+                                    Trở lại
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ 

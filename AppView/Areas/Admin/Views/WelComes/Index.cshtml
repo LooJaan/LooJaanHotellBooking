@@ -1,0 +1,94 @@
+﻿@model IEnumerable<AppData.WelCome>
+
+@{
+    ViewData["Title"] = "Danh sách lời chào";
+}
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-start">Quản lý lời chào</th>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="table mb-1">
+        <thead>
+            @* <tr>
+                <th class="text-end">
+                    <a asp-action="Create" class="btn btn-success btn-create">Thêm Mới</a>
+                </th>
+            </tr> *@
+        </thead>
+    </table>
+
+    <div class="table-scrollable">
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th class="text-center" style="color: black">
+                        Tiêu đề
+                    </th>
+                    <th class="text-center" style="color: black">
+                        Nội dung
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Trạng thái
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Hành động
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.Wel)</td>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.NoiDung)</td>
+                        <td class="text-center">
+                            @* @Html.DisplayFor(modelItem => item.TrangThai) *@
+
+                            @if (item.TrangThai)
+                            {
+                                <span class="badge badge-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-secondary">Không hoạt động</span>
+                            }
+                        </td>
+                        <td class="text-center">
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.ID">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            </a>
+                           @*  <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.ID">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                            <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.ID">
+                                <i class="bi bi-database-fill"></i>
+                            </a> *@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+<style>
+    .btn-create {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        .btn-create:hover {
+            background-color: #138496;
+            color: white;
+        }
+</style>
+
+
+
+@section Scripts {
+    
+}

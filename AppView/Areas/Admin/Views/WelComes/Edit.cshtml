@@ -1,0 +1,72 @@
+﻿@model AppData.WelCome
+
+@{
+    ViewData["Title"] = "Edit WelCome";
+}
+<form asp-action="Edit" method="post">
+	
+	
+	<table class="table mb-1">
+		<thead>
+			<tr>
+				<th class="text-start">Chỉnh sửa lời chào</th>
+			</tr>
+		</thead>
+	</table>
+
+		<div class="table-scrollable">
+			<div class="mt-4">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="row mb-3">
+									<div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+									<input type="hidden" asp-for="ID" />
+									<div class="col-md-12">
+										
+									<label asp-for="Wel" class="control-label text-dark">Tiêu đề</label>
+										<input asp-for="Wel" class="form-control" placeholder="Enter Wel Name" />
+										<span asp-validation-for="Wel" class="text-danger"></span>
+									</div>
+									<div class="col-md-12">
+
+									<label asp-for="NoiDung" class="control-label text-dark">Nội dung</label>
+										<input asp-for="NoiDung" class="form-control" placeholder="Enter Content" />
+										<span asp-validation-for="NoiDung" class="text-danger"></span>
+									</div>
+									<div class="col-md-12">
+
+									<label asp-for="TrangThai" class="control-label text-dark">Trạng thái</label>
+										<select asp-for="TrangThai" class="form-control">
+											<option value="true">Hoạt động</option>
+											<option value="false">Không hoạt động</option>
+										</select>
+										<span asp-validation-for="TrangThai" class="text-danger"></span>
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Hành động</h5>
+								<button type="submit" class="btn btn-primary mb-2">
+									<i class="fa fa-save"> </i>
+									Lưu
+								</button>
+								<a asp-action="Index" class="btn btn-danger mb-2">
+								<i class="fa fa-arrow-left"> </i>
+									Trở lại
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

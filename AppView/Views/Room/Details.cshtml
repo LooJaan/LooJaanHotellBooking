@@ -1,0 +1,367 @@
+﻿@model AppData.LoaiPhong
+
+<div id="info-room">
+    <div class="container">
+        <!--  -->
+        <div class="row">
+            <div class="col-md-7">
+            </div>
+            <div class="col-md-7">
+                <div id="room-slider">
+                    @foreach (var anh  in Model.HinhAnhPhongs )
+                    {
+                        <img alt="Luxury Double Suite, Attic Floor" class="main-image img-fluid" height="150" src="~/img/room-slider/@anh.Anh" width="auto" />
+                    }
+                    
+                </div>
+                <div class="thumbnail-images">
+                    @foreach (var anh in Model.HinhAnhPhongs)
+                    {
+                        <img alt="Thumbnail @anh.Id" class="thumbnail" data-slide="@anh.Id" height="100" src="~/img/room-slider/@anh.Anh" width="150" />
+                    }
+                    
+                   
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="details">
+                    <div class="info">
+                        <h1>@Model.TenLoaiPhong</h1>
+                        <div class="price">
+                            @Model.GiaGiamGia
+                        </div>
+                     
+                        <a href="@Url.Action("Create", "Booking", new { id =Model.MaLoaiPhong })" class="book-now" style="margin:0px">Book Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--thông tin phòng  -->
+        <div class="tabs">
+            <div class="tab">
+                <div class="tab-headerr">
+                    <span class="fa fa-chevron-down"></span>
+                    <span class="tab-title">Mô tả</span>
+                </div>
+                <div class="tab-contentt" style="display: none;">
+                    <p>@Model.MoTa</p>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="tab-header">
+                    <span class="fa fa-chevron-down"></span>
+                    <span class="tab-title">Chi tiết</span>
+                </div>
+                <div class="tab-content" style="display: none;">
+                    <p>Nội dung chi tiết ở đây...</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Phòng tương tự -->
+        <h4> Phòng tương tự</h4>
+        @await Component.InvokeAsync("RoomSuggestion", new { currentRoomId = Model.MaLoaiPhong })
+    </div>
+</div>
+
+<script>
+           document.addEventListener("DOMContentLoaded", function () {
+        // Xử lý slider
+        const mainImages = document.querySelectorAll("#room-slider .main-image");
+        const thumbnails = document.querySelectorAll(".thumbnail");
+        let currentIndex = 0;
+        let autoSlideInterval;
+
+        // Hàm hiển thị hình ảnh theo chỉ số
+        function showImage(index) {
+            mainImages.forEach((img, i) => {
+                img.style.display = i === index ? "block" : "none";
+            });
+            currentIndex = index;
+        }
+
+        // Tự động chuyển ảnh sau 5s
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(() => {
+                const nextIndex = (currentIndex + 1) % mainImages.length;
+                showImage(nextIndex);
+            }, 5000);
+        }
+
+        // Ngừng chuyển ảnh tự động khi người dùng click
+        function stopAutoSlide() {
+            clearInterval(autoSlideInterval);
+        }
+
+        // Sự kiện khi nhấn vào ảnh nhỏ
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => {
+                stopAutoSlide();
+                showImage(index);
+                startAutoSlide(); // Tiếp tục tự động sau khi nhấn
+            });
+        });
+
+        // Hiển thị ảnh đầu tiên và bắt đầu tự động chuyển
+        showImage(0);
+        startAutoSlide();
+
+});
+</script>
+<script>
+        document.addEventListener("DOMContentLoaded", function () {
+        const tabHeaders = document.querySelectorAll(".tab-headerr");
+
+        tabHeaders.forEach(header => {
+            header.addEventListener("click", function () {
+                // Tìm phần nội dung kế tiếp
+                const content = this.nextElementSibling;
+
+                // Kiểm tra nếu nội dung đang ẩn thì hiển thị
+                if (content.style.display === "none" || content.style.display === "") {
+                    content.style.display = "block";
+                    this.classList.add("activee"); // Thêm class active
+                } else {
+                    content.style.display = "none";
+                    this.classList.remove("activee"); // Xóa class active
+                }
+            });
+        });
+    });
+
+</script>
+<style>
+
+    .tab-contentt {
+        padding: 10px;
+      
+        display: none; 
+    }
+
+    .tab-headerr {
+        cursor: pointer;
+        padding: 10px;
+        
+    }
+
+        .tab-headerr.activee {
+            font-weight: bold;
+          
+        }
+/**/
+
+    .container {
+        width: 80%;
+       
+        padding: 20px 0;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 450px;
+    }
+
+    .thumbnail-images {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+        .thumbnail-images img {
+            width: 18%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .thumbnail-images .thumbnail {
+            opacity: 0.6; /* Mờ đi */
+            transition: opacity 0.3s ease-in-out;
+        }
+
+            .thumbnail-images .thumbnail:hover {
+                opacity: 1;
+                transition: 0.3s;
+            }
+
+    .thumbnail.active {
+        opacity: 1;
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+        .details .info {
+            width: 60%;
+        }
+
+            .details .info h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+
+            .details .info .price {
+                font-size: 24px;
+                color: #d9534f;
+                margin: 10px 0;
+            }
+
+            .details .info .book-now {
+                background-color: #d9534f;
+                color: #fff;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                display: inline-block;
+            }
+
+                .details .info .book-now:hover {
+                    background-color: rgb(90, 191, 231);
+                }
+
+            .details .info .meta {
+                margin-top: 20px;
+                font-size: 14px;
+                color: #777;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                padding: 5px 0;
+            }
+
+                .details .info .meta span,
+                .details .info .tags span {
+                    color: black;
+                }
+
+            .details .info .tags {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #777;
+            }
+
+            .details .info .social-icons {
+                margin-top: 20px;
+            }
+
+                .details .info .social-icons i {
+                    margin-right: 10px;
+                    color: #777;
+                    cursor: pointer;
+                }
+
+    .slick-prev, .slick-next {
+        width: 40px;
+        height: 40px;
+        z-index: 1000;
+        top: 50%; /* Canh giữa theo chiều dọc */
+        transform: translateY(-50%);
+        color: black; /* Màu của mũi tên */
+        border-radius: 50%; /* Mũi tên tròn */
+        opacity: 0; /* Ẩn mũi tên */
+        transition: opacity 0.3s ease-in-out; /* Thêm hiệu ứng chuyển đổi khi hover */
+        display: block;
+    }
+
+    #room-slider:hover .slick-prev, #room-slider:hover .slick-next {
+        opacity: 1;
+    }
+
+    .slick-prev {
+        left: 10px;
+    }
+
+    .slick-next {
+        right: 10px;
+    }
+
+        .slick-prev:hover, .slick-next:hover {
+            color: black;
+        }
+
+    .tabs {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+        .tabs .tab {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+        }
+
+            .tabs .tab .tab-content {
+                transition: 0.3s ease;
+            }
+
+    .tab-header {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .tab-header:hover {
+            background-color: #e9e9e9;
+            color: #716415;
+        }
+
+    .tab.open .tab-header {
+        background-color: #e9e9e9;
+        color: #716415;
+    }
+
+
+    .tab-title {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .icon {
+        font-size: 12px;
+        transition: transform 0.4s ease;
+    }
+
+    .tab-content {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 15px;
+        font-size: 14px;
+        transition: max-height 0.4s ease;
+    }
+
+        .tab-content p {
+            margin: 10px 0;
+        }
+
+    .tab.open .tab-content {
+        max-height: 200px;
+    }
+
+    .tab.open .fa-chevron-down {
+        transform: rotate(-180deg);
+        transition: 0.4s ease;
+    }
+
+    .tab-content .table-info {
+        background-color: white;
+        width: 100%;
+        margin: 1em 2.3em;
+    }
+
+        .tab-content .table-info th,
+        .tab-content .table-info td {
+            border-bottom: 1.5px solid #ddd;
+        }
+    /* đánh giá */
+
+</style>

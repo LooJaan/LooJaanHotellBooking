@@ -1,0 +1,183 @@
+﻿@model AppData.DatPhong
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    .table-container {
+        max-height: 450px; /* Chiều cao tối đa cho bảng */
+    @* max-width: 1460px; /*chiều trông tối đa*/ *@ 
+        overflow-y: auto; /* Thêm thanh cuộn dọc */
+        border: 1px solid #ccc; /* Viền cho bảng */
+        position: relative; /* Để sử dụng cho phần tiêu đề */
+    }
+
+    .table-wrapper {
+        display: flex;
+        justify-content: flex-end; /* Đẩy bảng sang phải */
+        align-items: flex-start; /* Căn đầu bảng */
+        margin: 20px 0; /* Khoảng cách trên dưới cho bảng */
+    }
+
+    .table {
+        width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng */
+        border-collapse: collapse; /* Kết hợp các đường viền */
+        table-layout: fixed; /* Để tiêu đề luôn cố định */
+    }
+
+    th, td {
+        padding: 10px; /* Khoảng cách cho ô */
+        text-align: left; /* Căn trái nội dung */
+        border: 1px solid #ddd; /* Đường viền cho ô */
+    }
+
+    th {
+        background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+        position: sticky; /* Cố định tiêu đề */
+        top: 0; /* Cố định ở trên cùng */
+        z-index: 10; /* Đảm bảo tiêu đề ở trên cùng */
+    }
+
+    .site-blocks-cover, .site-blocks-cover .row {
+        min-height: 100px !important;
+        height: 100px;
+    }
+</style>
+@{
+  
+    var sessionRole = HttpContextAccessor.HttpContext?.Session.GetString("Quyen");
+}
+
+<div class="site-blocks-cover overlay" style="background-image: url(/libs/images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+
+                <h1 class="mb-4"></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<table class="table mb-1">
+    <thead>
+        <tr>
+            <th class="text-start">Chi tiết đặt phòng</th>
+        </tr>
+    </thead>
+</table>
+
+<div class="table-scrollable">
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-dark">
+
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Khách hàng:
+                            </label>
+                            @Html.DisplayFor(model => model.KhachHang)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Căn cước công dân:
+                            </label>
+                            @Html.DisplayFor(model => model.CCCD)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số điện thoại:
+                            </label>
+                            @Html.DisplayFor(model => model.SoDienThoai)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số người lớn:
+                            </label>
+                            @Html.DisplayFor(model => model.SoNguoiLon)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số trẻ em:
+                            </label>
+                            @Html.DisplayFor(model => model.SoTreEm)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ghi chú:
+                            </label>
+                            @Html.DisplayFor(model => model.GhiChu)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-dark">
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày đặt :
+                            </label>
+                            @Html.DisplayFor(model => model.NgayDat)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày nhận:
+                            </label>
+                            @Html.DisplayFor(model => model.NgayNhan)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày trả:
+                            </label>
+                            @Html.DisplayFor(model => model.NgayTra)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số lượng phòng:
+                            </label>
+                            @Html.DisplayFor(model => model.SoLuongPhong)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Loại phòng:
+                            </label>
+                            @Html.DisplayFor(model => model.LoaiPhong.TenLoaiPhong)
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+
+                @if (sessionRole == "khachhang") // Kiểm tra xem người dùng có quyền "KhachHang" không
+                {
+                    <a class="btn btn-danger" asp-action="MyBooking">Trở lại</a>
+                }
+                else
+                {
+                    <a class="btn btn-danger" asp-action="Create">Trở lại</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

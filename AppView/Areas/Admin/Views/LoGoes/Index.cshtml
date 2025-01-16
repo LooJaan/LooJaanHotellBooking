@@ -1,0 +1,73 @@
+﻿@model IEnumerable<AppData.LoGo>
+
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";  // Đảm bảo đường dẫn chính xác đến layout
+}
+
+<div class="table-container">
+	<table class="table mb-1">
+		<thead>
+			<tr>
+				<th class="text-start">Quản lý logo</th>
+			</tr>
+		</thead>
+	</table>
+
+	<div class="table-scrollable">
+		<table class="table table-bordered ">
+			<thead>
+				<tr>
+					<th class ="text-center" style="color: black">
+						Hình ảnh
+					</th>
+					<th class="text-center " style="color: black">
+						Trạng thái
+					</th>
+					<th class="text-center " style="color: black">
+						Hành động
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td class="text-center">
+							<img src="~/img/@item.Logo" alt="Logo" style="max-width: 150px; height: auto;" />
+						</td>
+						<td class="text-center">
+							@if (item.TrangThai)
+							{
+								<span class="badge badge-success">Hoạt động</span>
+							}
+							else
+							{
+								<span class="badge badge-secondary">Không hoạt động</span>
+							}
+						</td>
+						<td class="text-center">
+							<a href="/Admin/Logoes/Edit/@item.ID" class="btn btn-warning btn-sm">
+								<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+							</a>
+							@* <a href="/Admin/Logoes/Delete/@item.ID" class="btn btn-danger btn-sm" data-bs-toggle="modal"data-bs-target="#confirmDeleteModal">
+								<i class="fa fa-trash-o" aria-hidden="true"></i>
+							</a> *@
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<style>
+	.btn-create {
+		background-color: #17a2b8;
+		color: white;
+	}
+
+		.btn-create:hover {
+			background-color: #138496;
+			color: white;
+		}
+</style>

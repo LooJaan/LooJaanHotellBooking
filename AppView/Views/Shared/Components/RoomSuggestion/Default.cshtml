@@ -1,0 +1,137 @@
+﻿@using AppView.ViewModels
+@model RoomSuggestionViewModel
+
+<div id="room-info">
+    <div class="container">
+        <!-- Thông tin phòng hiện tại -->
+        <!-- Gợi ý phòng có giá lớn hơn -->
+        <div class="suggested-rooms">
+            @foreach (var room in Model.RoomsGreaterThanCurrent)
+            {
+                <div class="suggested-room">
+                    <div class="room-image">
+                        <img alt="@room.TenLoaiPhong" src="~/img/room/@room.Anh" />
+                    </div>
+                    <div class="room-name">@room.TenLoaiPhong</div>
+                    <div class="room-price">@room.GiaGiamGia</div>
+                    <a href="@Url.Action("Create", "Booking", new { id = @room.MaLoaiPhong })" class="book-now">Book Now</a>
+                </div>
+            }
+
+            <!-- Gợi ý phòng có giá nhỏ hơn -->
+            @foreach (var room in Model.RoomsLessThanCurrent)
+            {
+                <div class="suggested-room">
+                    <div class="room-image">
+                        <img alt="@room.TenLoaiPhong" src="~/img/room/@room.Anh" />
+                    </div>
+                    <div class="room-name">@room.TenLoaiPhong</div>
+                    <div class="room-price">@room.GiaGiamGia</div>
+                    <a href="@Url.Action("Create", "Booking", new { id = @room.MaLoaiPhong })" class="book-now">Book Now</a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    #room-info {
+        padding: 40px 0;
+    }
+
+    .room-title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .room-price {
+        font-size: 24px;
+        font-weight: 600;
+        color: #e91e63; /* Màu đỏ tươi cho giá */
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .suggested-rooms {
+        display: flex;
+       /*  flex-wrap: wrap; */
+        gap: 10px; /* Khoảng cách giữa các phòng */
+        justify-content: space-between;
+    }
+
+    .suggested-room {
+        width: 45%; /* Mỗi phòng chiếm 25% chiều rộng của màn hình */
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      /*   margin-bottom: 30px; */
+        transition: box-shadow 0.3s ease;
+    }
+
+    /* Điều chỉnh kích thước ảnh */
+    .room-image {
+        width: 100%;
+        height: 300px; /* Tăng chiều cao của ảnh */
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+        .room-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+    /* Phóng to ảnh khi hover */
+    .suggested-room:hover .room-image img {
+        transform: scale(1.15); /* Phóng to ảnh khi hover */
+    }
+
+    /* Tên phòng */
+    .room-name {
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+    /* Giá phòng */
+    .room-price {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ff5722;
+        text-align: center;
+        margin: 0px;
+        background-color: #f1f1f1;
+    }
+
+    /* Nút Đặt ngay */
+    .book-now {
+        display: block;
+        text-align: center;
+        padding: 16px 20px; /* Tăng padding cho nút */
+      
+        background-color: #ff5722;
+        color: white;
+        font-size: 18px; /* Tăng kích thước font */
+        font-weight: bold;
+        text-decoration: none;
+      
+      
+    }
+
+        .book-now:hover {
+            background-color: #e64a19; /* Màu khi hover */
+           
+        }
+
+</style>

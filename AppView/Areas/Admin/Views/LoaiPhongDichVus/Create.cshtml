@@ -1,0 +1,57 @@
+﻿@model AppData.LoaiPhongDichVu
+
+
+
+<form asp-action="Create" enctype="multipart/form-data" method="post" class=" ">
+    <div class="table-container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h8>
+                <span class="fas fa-home"> </span> Trang chủ / Loại phòng / Thêm
+                mới
+            </h8>
+        </div>
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <div class="col-md-6">
+                                        <h6>Dịch vụ</h6>
+                                        <label>Dịch Vụ</label>
+                                        <select asp-for="DichVusID" asp-items="ViewBag.DichVus" class="form-control"></select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Loại phòng</h6>
+                                        <div class="form-group">
+                                            <label>Loại Phòng</label>
+                                            <select asp-for="LoaiPhongsId" asp-items="ViewBag.LoaiPhongs" class="form-control"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Xuất bản</h5>
+                                <button type="submit" class="btn btn-primary mb-2">
+                                    <i class="fas fa-plus"> </i>
+                                    Tạo mới
+                                </button>
+                                <a asp-action="Index" class="btn btn-danger mb-2">
+                                    <i class="fas fa-backward"> </i>
+                                    Trở lại
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

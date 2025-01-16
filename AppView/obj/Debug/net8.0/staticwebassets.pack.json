@@ -1,0 +1,3541 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\HotelBooking\\AppView\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppView.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppView.f1b7uu3jzf.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\css\\hover-style.css",
+      "PackagePath": "staticwebassets\\css\\hover-style.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\faviconn.ico",
+      "PackagePath": "staticwebassets\\faviconn.ico"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\GG.png",
+      "PackagePath": "staticwebassets\\img\\GG.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\Majestic-removebg-preview (1)_20250116153703005.png",
+      "PackagePath": "staticwebassets\\img\\Majestic-removebg-preview (1)_20250116153703005.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\Remove-bg.ai_1732501085934.png",
+      "PackagePath": "staticwebassets\\img\\Remove-bg.ai_1732501085934.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\Ticktok.png",
+      "PackagePath": "staticwebassets\\img\\Ticktok.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\Majestic-removebg-preview (1)_20250116095624392.png",
+      "PackagePath": "staticwebassets\\img\\about\\Majestic-removebg-preview (1)_20250116095624392.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\Majestic-removebg-preview (1)_20250116095624639.png",
+      "PackagePath": "staticwebassets\\img\\about\\Majestic-removebg-preview (1)_20250116095624639.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\Majestic-removebg-preview (1)_20250116095624695.png",
+      "PackagePath": "staticwebassets\\img\\about\\Majestic-removebg-preview (1)_20250116095624695.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-1_20250116152729414.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-1_20250116152729414.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-2_20250116152807223.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-2_20250116152807223.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-3_20250116152830452.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-3_20250116152830452.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\amenities-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\amenities-bg.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\amenities-bg_20250106093143046.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\amenities-bg_20250106093143046.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\bathtub-hover.png",
+      "PackagePath": "staticwebassets\\img\\about\\bathtub-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\bathtub.png",
+      "PackagePath": "staticwebassets\\img\\about\\bathtub.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\bathtub.svg",
+      "PackagePath": "staticwebassets\\img\\about\\bathtub.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\call.png",
+      "PackagePath": "staticwebassets\\img\\about\\call.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\header-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\header-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\header-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\header-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\header-slider-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\header-slider-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\oách_20250116095925002.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\oách_20250116095925002.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\oách_20250116095925175.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\oách_20250116095925175.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\oách_20250116095925206.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\oách_20250116095925206.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-4_20250106093143456.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-4_20250106093143456.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-4_20250108084027084.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-4_20250108084027084.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-5_20250106093143419.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-5_20250106093143419.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-6_20250108083706240_20250108084027001.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-6_20250108083706240_20250108084027001.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\room-6_20250108084026771.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\room-6_20250108084026771.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\ê ê ê_20250116102523690.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\ê ê ê_20250116102523690.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\air-conditioner.png",
+      "PackagePath": "staticwebassets\\img\\air-conditioner.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\amenities-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\amenities-bg.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple-favicon.png",
+      "PackagePath": "staticwebassets\\img\\apple-favicon.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\bathtub-hover.png",
+      "PackagePath": "staticwebassets\\img\\bathtub-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\call.png",
+      "PackagePath": "staticwebassets\\img\\call.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\face.png",
+      "PackagePath": "staticwebassets\\img\\face.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\fb.png",
+      "PackagePath": "staticwebassets\\img\\fb.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\header-slider-1_20241226105313871.jpg",
+      "PackagePath": "staticwebassets\\img\\header-slider-1_20241226105313871.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\header-slider-1_20241226105331489.jpg",
+      "PackagePath": "staticwebassets\\img\\header-slider-1_20241226105331489.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\header-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\header-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\GG.png",
+      "PackagePath": "staticwebassets\\img\\icon\\GG.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\INT.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\INT.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\INTG.png",
+      "PackagePath": "staticwebassets\\img\\icon\\INTG.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\Remove-bg.ai_1732501085934.png",
+      "PackagePath": "staticwebassets\\img\\icon\\Remove-bg.ai_1732501085934.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\Screenshot 2023-10-02 170956.png",
+      "PackagePath": "staticwebassets\\img\\icon\\Screenshot 2023-10-02 170956.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\Ticktok.png",
+      "PackagePath": "staticwebassets\\img\\icon\\Ticktok.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241218_155648057.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241218_155648057.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241219_133924201.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241219_133924201.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241220090932438.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241220090932438.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241220090932438_20241220091132315.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241220090932438_20241220091132315.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241220090932561.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241220090932561.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20241226141339101.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20241226141339101.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner-hover_20250116152514557.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner-hover_20250116152514557.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner_20241226141113298.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner_20241226141113298.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner_20241226141351280.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner_20241226141351280.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\air-conditioner_20241226141517550.png",
+      "PackagePath": "staticwebassets\\img\\icon\\air-conditioner_20241226141517550.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\amenities-bg_20241226095844540.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\amenities-bg_20241226095844540.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\amenities-bg_20241226100008464.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\amenities-bg_20241226100008464.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\amenities-bg_20241226100100024.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\amenities-bg_20241226100100024.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\amenities-bg_20241226101839639.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\amenities-bg_20241226101839639.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\amenities-bg_20241226102841935.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\amenities-bg_20241226102841935.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub-hover(1).png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover(1).png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub-hover_20241217_092627546.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover_20241217_092627546.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub-hover_20241219_133940698.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover_20241219_133940698.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub-hover_20250116152529371.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub-hover_20250116152529371.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub.png",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\bathtub.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\bathtub.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241219_133859601.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241219_133859601.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241226110332872.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241226110332872.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241226113532978.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241226113532978.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241226141359620.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241226141359620.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241231094134521.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241231094134521.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241231094302348.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241231094302348.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20241231094320576.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20241231094320576.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call-hover_20250116152500321.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call-hover_20250116152500321.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call.png",
+      "PackagePath": "staticwebassets\\img\\icon\\call.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\call.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\call.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\fb.png",
+      "PackagePath": "staticwebassets\\img\\icon\\fb.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\fb_20241220141727391.png",
+      "PackagePath": "staticwebassets\\img\\icon\\fb_20241220141727391.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\fb_20241220141816896.png",
+      "PackagePath": "staticwebassets\\img\\icon\\fb_20241220141816896.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\fb_20241220142219505.png",
+      "PackagePath": "staticwebassets\\img\\icon\\fb_20241220142219505.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241219_133801740_20241226103422672.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241219_133801740_20241226103422672.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241219_133801740_20241226105407898.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241219_133801740_20241226105407898.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226094021880.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226094021880.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226094117693.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226094117693.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226094804958.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226094804958.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226094858211.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226094858211.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226094902416.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226094902416.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226100249997.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226100249997.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226102306390.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226102306390.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226103225745.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226103225745.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226104023813.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226104023813.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-1_20241226104203310.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-1_20241226104203310.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-2_20241217_095624534_20241226094450845.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-2_20241217_095624534_20241226094450845.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\header-slider-2_20241226105604989.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\header-slider-2_20241226105604989.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\kitchen-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\kitchen-hover_20241219_134011048.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen-hover_20241219_134011048.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\kitchen-hover_20250116152538745.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen-hover_20250116152538745.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\kitchen.png",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\kitchen.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\kitchen.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\minibar-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\minibar-hover_20241219_134031036.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar-hover_20241219_134031036.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\minibar-hover_20250116152549629.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar-hover_20250116152549629.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\minibar.png",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\minibar.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\minibar.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-1_20250108083515949.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-1_20250108083515949.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-1_20250108083536296.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-1_20250108083536296.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-2_20241226165304076.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-2_20241226165304076.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-2_20241231084303650.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-2_20241231084303650.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\room-4_20241217_093223603.jpg",
+      "PackagePath": "staticwebassets\\img\\icon\\room-4_20241217_093223603.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shield-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shield-hover_20241219_134051288.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield-hover_20241219_134051288.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shield-hover_20250116152603750.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield-hover_20250116152603750.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shield.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shield.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shield.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\shield.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shower-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shower-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shower-hover_20241219_134121391.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shower-hover_20241219_134121391.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shower.png",
+      "PackagePath": "staticwebassets\\img\\icon\\shower.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\shower.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\shower.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\television-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\television-hover_20241219_134138784.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television-hover_20241219_134138784.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\television-hover_20250116152636809.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television-hover_20250116152636809.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\television.png",
+      "PackagePath": "staticwebassets\\img\\icon\\television.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\television.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\television.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\towel-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\towel-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\towel-hover_20241219_134151698.png",
+      "PackagePath": "staticwebassets\\img\\icon\\towel-hover_20241219_134151698.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\towel.png",
+      "PackagePath": "staticwebassets\\img\\icon\\towel.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\towel.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\towel.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\wifi-connection-signal-symbol.svg",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-connection-signal-symbol.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\wifi-hover.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-hover.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\wifi-hover_20241219_134203281.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-hover_20241219_134203281.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\wifi-hover_20250116153233588.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi-hover_20250116153233588.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\icon\\wifi.png",
+      "PackagePath": "staticwebassets\\img\\icon\\wifi.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\logo_20241227113732211.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo_20241227113732211.jpeg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\logo_20241230094025374.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo_20241230094025374.jpeg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\logo_20241230143914547.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo_20241230143914547.jpeg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\room-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-5.jpg",
+      "PackagePath": "staticwebassets\\img\\room-5.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-1_20241226142450122.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-1_20241226142450122.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-1_20241231100917893.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-1_20241231100917893.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-2_20241226142442894.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-2_20241226142442894.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-3_20241226142755522.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-3_20241226142755522.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-4.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-5.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-5.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-6.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-6.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room-slider\\room-6_20241226142430216.jpg",
+      "PackagePath": "staticwebassets\\img\\room-slider\\room-6_20241226142430216.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-1_20241231101115145.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-1_20241231101115145.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-1_20250116153348209.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-1_20250116153348209.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-2.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-2_20250108150635580.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-2_20250108150635580.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-2_20250116153425016.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-2_20250116153425016.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-3.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-3_20250116153458947.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-3_20250116153458947.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-4.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-4.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-5.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-5.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-6.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-6.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-6_20250108083706240.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-6_20250108083706240.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\room\\room-6_20250108083706782.jpg",
+      "PackagePath": "staticwebassets\\img\\room\\room-6_20250108083706782.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\amenities-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\amenities-bg.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\amenities-bg_20241226104336897.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\amenities-bg_20241226104336897.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\amenities-bg_20241231085812337.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\amenities-bg_20241231085812337.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-1_20241219_133801740.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1_20241219_133801740.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-1_20241219_171239528.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1_20241219_171239528.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-1_20241220145902217.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1_20241220145902217.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-1_20241224140811288.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-1_20241224140811288.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20241217_095624534.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20241217_095624534.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20241219_133809267.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20241219_133809267.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20241220145909806.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20241220145909806.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20241220145909806_20241231085820216.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20241220145909806_20241231085820216.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20241224140818687.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20241224140818687.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-2_20250116153135959.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-2_20250116153135959.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\header-slider-3_20241230095425386.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\header-slider-3_20241230095425386.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\hero_1_20250116153056005.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\hero_1_20250116153056005.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\hero_1_20250116153056414.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\hero_1_20250116153056414.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\hero_1_20250116153057029.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\hero_1_20250116153057029.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\hero_2_20250116153111239.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\hero_2_20250116153111239.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\img_6_20250102160450297.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\img_6_20250102160450297.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\room-1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\room-1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\room-1_20241217_094108614.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\room-1_20241217_094108614.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\room-2_20241217_094448600.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\room-2_20241217_094448600.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\room-2_20241217_095036812.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\room-2_20241217_095036812.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\slider\\view bien.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\view bien.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\js\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\js\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\animate.css",
+      "PackagePath": "staticwebassets\\libs\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\aos.css",
+      "PackagePath": "staticwebassets\\libs\\css\\aos.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\libs\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\libs\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\mediaelementplayer.css",
+      "PackagePath": "staticwebassets\\libs\\css\\mediaelementplayer.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\libs\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\css\\style.css",
+      "PackagePath": "staticwebassets\\libs\\css\\style.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\libs\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\libs\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\about_2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\about_2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\about_3.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\about_3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\hero_2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\hero_3.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\hero_3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\icon-service\\wifi.png",
+      "PackagePath": "staticwebassets\\libs\\images\\icon-service\\wifi.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_1.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_3.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_4.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_4.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_5.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_5.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_6.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_6.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\img_7.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\img_7.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\person_1.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\person_2.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\person_3.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\libs\\images\\person_4.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\aos.js",
+      "PackagePath": "staticwebassets\\libs\\js\\aos.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\main.js",
+      "PackagePath": "staticwebassets\\libs\\js\\main.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\mediaelement-and-player.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\mediaelement-and-player.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\libs\\js\\slick.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\_site-base.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\_site-base.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\_site-blocks.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\_site-blocks.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\_site-navbar.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\_site-navbar.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\libs\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\libs\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\config.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\dialogs\\allMedias.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\dialogs\\allMedias.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\images\\Thumbs.db"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\images\\media.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\images\\media.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\images\\placeholder.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\jwplayer.swf",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\jwplayer.swf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\allmedias\\readme.txt",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\allmedias\\readme.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\autocorrect\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\autocorrect\\dialogs\\options.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\bootstrapTable\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\bootstrapTable\\dialogs\\table.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\colordialog\\dialogs\\colordialog.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor-disabled.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\copyformatting\\cursors\\cursor.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\copyformatting\\styles\\copyformatting.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\div\\dialogs\\div.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\div\\dialogs\\div.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\CHANGELOG.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\plugindefinition.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\plugindefinition.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\_helpers\\tools.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\authentication.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\exportpdf.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\configfilename.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\emptyeditor.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integration.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\integrations\\easyimage.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notifications.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\notificationsasync.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\paperformat.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\readonly.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\stylesheets.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenfetching.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorscorrect.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokentwoeditorswrong.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\tokenwithouturl.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\manual\\wrongendpoint.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\notification.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\notification.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\resourcespaths.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\statistics.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\exportpdf\\tests\\stylesheets.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\fastimage\\dialogs\\fastimage.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\fastimage\\dialogs\\fastimage.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\fastimage\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\fastimage\\images\\noimage.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\find\\dialogs\\find.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\find\\dialogs\\find.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\button.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\button.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\checkbox.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\form.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\form.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\hiddenfield.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\radio.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\radio.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\select.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\select.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\textarea.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\textarea.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\dialogs\\textfield.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\dialogs\\textfield.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\forms\\images\\hiddenfield.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\iframe\\dialogs\\iframe.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\iframe\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\iframe\\images\\placeholder.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\image\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\image\\images\\noimage.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\imageresize\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\imageresize\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\imageresize\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\imageresize\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\lineheight\\LICENSE",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\lineheight"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\lineheight\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\lineheight\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\lineheight\\readme.txt",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\lineheight\\readme.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\liststyle\\dialogs\\liststyle.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\magicline\\images\\icon.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\magicline\\images\\icon.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pagebreak\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pastetools\\filter\\common.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pastetools\\filter\\common.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\pastetools\\filter\\image.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\pastetools\\filter\\image.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\preview\\images\\pagebreak.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\preview\\images\\pagebreak.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\preview\\preview.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\preview\\preview.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\preview\\styles\\screen.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\preview\\styles\\screen.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\CHANGELOG.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_address.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_address.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_blockquote.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_div.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_div.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h1.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h1.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h2.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h2.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h3.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h3.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h4.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h4.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h5.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h5.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h6.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_h6.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_p.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_p.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_pre.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\showblocks\\images\\block_pre.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\simage\\LICENSE",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\simage"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\simage\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\simage\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\dialogs\\smiley.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\angel_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\angel_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\angel_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\angry_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\angry_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\angry_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\broken_heart.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\broken_heart.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\broken_heart.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\confused_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\confused_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\confused_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\cry_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\cry_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\cry_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\devil_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\devil_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\devil_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\embaressed_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\embarrassed_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\envelope.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\envelope.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\envelope.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\envelope.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\heart.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\heart.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\heart.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\heart.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\kiss.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\kiss.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\kiss.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\kiss.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\lightbulb.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\lightbulb.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\lightbulb.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\omg_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\omg_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\omg_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\regular_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\regular_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\regular_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\sad_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\sad_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\sad_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\shades_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\shades_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\shades_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\teeth_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_down.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\thumbs_up.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\tongue_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\tounge_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\whatchutalkingabout_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\wink_smile.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\smiley\\images\\wink_smile.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\smiley\\images\\wink_smile.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\dialogs\\templates.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\dialogs\\templates.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\dialogs\\templates.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\dialogs\\templates.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\templatedefinition.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\templatedefinition.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\templates\\default.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\templates\\default.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template1.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template2.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\templates\\templates\\images\\template3.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\videodetector\\dialogs\\videoDialog.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\videodetector\\dialogs\\videoDialog.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\videodetector\\videodetector.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\videodetector\\videodetector.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\widget\\images\\handle.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\widget\\images\\handle.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode-min.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode-min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode_UTF8.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\3rdParty\\qrcode_UTF8.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\LICENSE.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\README.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\README.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\dialogs\\yaqr-min.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\dialogs\\yaqr-min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\plugins\\yaqr\\dialogs\\yaqr.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\plugins\\yaqr\\dialogs\\yaqr.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\autogrow\\autogrow.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\autogrow\\autogrow.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\magicline\\magicline.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\magicline\\magicline.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\plugin\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\plugin\\ckeditor\\vendor\\promise.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\vendor\\easing\\easing.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\vendor\\easing\\easing.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\jquery\\jquery-migrate.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-migrate.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\stickyjs\\sticky.js",
+      "PackagePath": "staticwebassets\\vendor\\stickyjs\\sticky.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\superfish\\hoverIntent.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\hoverIntent.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\superfish\\superfish.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\superfish.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\superfish\\superfish.min.js",
+      "PackagePath": "staticwebassets\\vendor\\superfish\\superfish.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\vendor\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\vendor\\wow\\wow.js"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\vendor\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\vendor\\wow\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppView.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppView.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppView.props",
+      "PackagePath": "build\\AppView.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppView.props",
+      "PackagePath": "buildMultiTargeting\\AppView.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppView.props",
+      "PackagePath": "buildTransitive\\AppView.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

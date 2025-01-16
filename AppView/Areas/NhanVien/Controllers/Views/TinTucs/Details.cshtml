@@ -1,0 +1,226 @@
+﻿            @model AppData.TinTuc
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    label{
+        color:black;
+    }
+
+    .mb-3{
+        color:black;
+    }
+    .contentct{
+        height:100px;
+        overflow:auto;
+        border:1px solid black;
+    }
+</style>
+
+
+<table class="table mb-1">
+    <thead>
+        <tr>
+            <th class="text-start">Thông tin trang tin tức</th>
+        </tr>
+    </thead>
+</table>
+
+<div class="table-scrollable">
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Tin tức chính:
+                            </label>
+                            @Html.DisplayFor(model => model.TenTinTucChinh)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Nội dung ngắn:
+                            </label>
+                            @Html.DisplayFor(model => model.NoiDungNgan)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Trạng thái:
+                            </label>
+                            @if (Model.TrangThai)
+                            {
+                                <span class="badge badge-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-secondary">Không hoạt động</span>
+                            }
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="postTitle">
+                                        Nội dung chi tiết 1
+                                    </label>
+                                    <div class="contentct">
+                                        @Html.DisplayFor(model => model.NoiDungChiTiet)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Hành động</h5>
+                       
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.ID">
+                            <i class="fa fa-save"></i> Lưu
+                            </a>
+                        <a class="btn btn-danger" asp-action="Index">
+                            <i class="fa fa-arrow-left"></i> Trở lại
+                            </a>
+
+                        <h5 class="card-title mt-5">Hình ảnh</h5>
+                        <div class="col">
+                            <label class="text-dark">Ảnh 1</label>
+                            @if (!string.IsNullOrEmpty(Model?.HinhAnh))
+                            {
+                                <img src="~/img/about/@Model.HinhAnh" alt="Hình ảnh 1" class="img-thumbnail" style="max-width: 200px;">
+                            }
+                            else
+                            {
+                                <span class="text-muted">Không có hình ảnh</span>
+                            }
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@* <div>
+    <dl class="row">
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TenTinTucChinh)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.TenTinTucChinh)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TenTinTucPhu)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.TenTinTucPhu)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoiDungNgan)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NoiDungNgan)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HinhAnh1)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model?.HinhAnh1))
+            {
+                <img src="~/img/about/@Model.HinhAnh1" alt="Hình ảnh 1" class="img-thumbnail" style="max-width: 200px;">
+            }
+            else
+            {
+                <span class="text-muted">Không có hình ảnh</span>
+            }
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HinhAnh2)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model?.HinhAnh2))
+            {
+                <img src="~/img/about/@Model.HinhAnh2" alt="Hình ảnh 2" class="img-thumbnail" style="max-width: 200px;">
+            }
+            else
+            {
+                <span class="text-muted">Không có hình ảnh</span>
+            }
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HinhAnh3)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model?.HinhAnh3))
+            {
+                <img src="~/img/about/@Model.HinhAnh3" alt="Hình ảnh 3" class="img-thumbnail" style="max-width: 200px;">
+            }
+            else
+            {
+                <span class="text-muted">Không có hình ảnh</span>
+            }
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoiDungChiTiet1)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NoiDungChiTiet1)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoiDungChiTiet2)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NoiDungChiTiet2)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoiDungChiTiet3)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NoiDungChiTiet3)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NoiDungChiTiet4)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NoiDungChiTiet4)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @if (Model.TrangThai)
+            {
+                <span class="badge badge-success">Hoạt động</span>
+            }
+            else
+            {
+                <span class="badge badge-secondary">Không hoạt động</span>
+            }
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.ID">Sửa</a>
+    <a class="btn btn-danger" asp-action="Index">Trở lại</a>
+</div> *@
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

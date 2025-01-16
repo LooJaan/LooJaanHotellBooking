@@ -1,0 +1,140 @@
+﻿@model AppData.DatPhong
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .site-blocks-cover, .site-blocks-cover .row {
+        min-height: 100px !important;
+        height: 100px;
+    }
+</style>
+
+<div class="site-blocks-cover overlay" style="background-image: url(/libs/images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+                <h1 class="mb-4"></h1>
+            </div>
+        </div>
+    </div>
+</div>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="site-section site-section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 mb-2">
+                <form id="createForm" asp-action="Create" method="post" class="p-1 bg-white">
+
+                    <!-- Hàng 1 -->
+                    <div class="row form-group">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="LoaiPhongID" class="control-label">Loại Phòng</label>
+                            <select asp-for="LoaiPhongID" class="form-control" asp-items="ViewBag.LoaiPhongID" required>
+                                <option value="">Chọn loại phòng</option>
+                            </select>
+                            <span asp-validation-for="LoaiPhongID" class="text-danger"></span>
+                        </div>
+                        
+                        <input type="hidden" asp-for="tkId" value="@ViewBag.UserId" />
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="KhachHang" class="control-label">Họ và tên</label>
+                            <input asp-for="KhachHang" class="form-control" placeholder="Nhập đầy đủ họ tên" required />
+                            <span asp-validation-for="KhachHang" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="CCCD" class="control-label">CCCD</label>
+                            <input asp-for="CCCD" class="form-control" placeholder="Nhập CCCD" required />
+                            <span asp-validation-for="CCCD" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Hàng 2 -->
+                    <div class="row form-group">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="SoDienThoai" class="control-label">Số điện thoại</label>
+                            <input asp-for="SoDienThoai" class="form-control" placeholder="Nhập số điện thoại" required />
+                            <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="SoNguoiLon" class="control-label">Số người lớn</label>
+                            <input asp-for="SoNguoiLon" class="form-control" />
+                            <span asp-validation-for="SoNguoiLon" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="SoTreEm" class="control-label">Số trẻ em</label>
+                            <input asp-for="SoTreEm" class="form-control"  />
+                            <span asp-validation-for="SoTreEm" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Hàng 3 -->
+                    <div class="row form-group">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="NgayNhan" class="control-label">Ngày nhận</label>
+                            <input asp-for="NgayNhan" class="form-control" type="date" required />
+                            <span asp-validation-for="NgayNhan" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="NgayTra" class="control-label">Ngày trả</label>
+                            <input asp-for="NgayTra" class="form-control" type="date" required />
+                            <span asp-validation-for="NgayTra" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <label class="font-weight-bold" asp-for="SoLuongPhong" class="control-label">Số lượng phòng</label>
+                            <input asp-for="SoLuongPhong" class="form-control" required />
+                            <span asp-validation-for="SoLuongPhong" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="font-weight-bold" asp-for="GhiChu" class="control-label">Ghi chú</label>
+                            <textarea asp-for="GhiChu" class="form-control" id="request" placeholder="Nhập ghi chú..." style="height: 150px;"></textarea>
+                            <span asp-validation-for="GhiChu" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="Gửi" class="btn btn-primary pill px-4 py-2" />
+                        </div>
+                    </div>
+
+                </form>
+          
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="errorMessage" style="color: red; display: none;"></div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+

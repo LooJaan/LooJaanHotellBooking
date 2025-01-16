@@ -1,0 +1,200 @@
+﻿@model AppData.DatPhong
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+</style>
+
+
+<table class="table mb-1">
+    <thead>
+        <tr>
+            <th class="text-start">Chi tiết đặt phòng</th>
+        </tr>
+    </thead>
+</table>
+
+<div class="table-scrollable">
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-dark">
+
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Khách hàng:
+                            </label>
+                            @Html.DisplayFor(model => model.KhachHang)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Căn cước công dân:
+                            </label>
+                            @Html.DisplayFor(model => model.CCCD)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số điện thoại:
+                            </label>
+                            @Html.DisplayFor(model => model.SoDienThoai)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số người lớn:
+                            </label>
+                            @Html.DisplayFor(model => model.SoNguoiLon)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số trẻ em:
+                            </label>
+                            @Html.DisplayFor(model => model.SoTreEm)
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ghi chú:
+                            </label>
+                            @Html.DisplayFor(model => model.GhiChu)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-dark">
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày đặt :
+                            </label>
+                            @Html.DisplayFor(model => model.NgayDat)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày nhận:
+                            </label>
+                            @Html.DisplayFor(model => model.NgayNhan)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Ngày trả:
+                            </label>
+                            @Html.DisplayFor(model => model.NgayTra)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Số lượng phòng:
+                            </label>
+                            @Html.DisplayFor(model => model.SoLuongPhong)
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="postTitle">
+                                Loại phòng:
+                            </label>
+                            @Html.DisplayFor(model => model.LoaiPhong.TenLoaiPhong)
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-danger" asp-action="Index">Trở lại</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@* <div>
+    <dl class="row">
+        <dt style="color:black" class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KhachHang)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.KhachHang)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CCCD)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.CCCD)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SoDienThoai)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.SoDienThoai)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SoNguoiLon)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.SoNguoiLon)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SoTreEm)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.SoTreEm)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NgayDat)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NgayDat)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NgayNhan)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NgayNhan)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NgayTra)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.NgayTra)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SoLuongPhong)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.SoLuongPhong)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GhiChu)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.GhiChu)
+        </dd>
+        <dt style="color:black" class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LoaiPhong)
+        </dt>
+        <dd style="color:black" class="col-sm-10">
+            @Html.DisplayFor(model => model.LoaiPhong.TenLoaiPhong)
+        </dd>
+    </dl>
+</div>
+<div>
+   
+    <a class="btn btn-danger" asp-action="Index">Trở lại</a>
+</div> *@
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

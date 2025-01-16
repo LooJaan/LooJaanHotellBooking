@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\oec\boking\AppView\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-12-20T08:12:57.3502874Z||;True|2024-12-20T15:09:12.3466206+07:00||;True|2024-12-20T15:08:32.2591955+07:00||;True|2024-12-20T15:06:38.3741603+07:00||;True|2024-12-20T15:04:58.1441919+07:00||;True|2024-12-20T15:00:27.4078601+07:00||;True|2024-12-20T14:55:42.9404864+07:00||;True|2024-12-20T10:24:56.4180315+07:00||;True|2024-12-20T09:48:04.5906693+07:00||;True|2024-12-20T09:27:55.4711815+07:00||;True|2024-12-20T09:26:53.2006343+07:00||;True|2024-12-20T09:25:45.8424809+07:00||;True|2024-12-19T11:03:07.9511858+07:00||;True|2024-12-19T10:44:23.5917238+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/css/hover-style.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/about-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/about-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/about-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/amenities-bg.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/bathtub-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/bathtub.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/bathtub.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/call.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/header-slider-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/header-slider-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/header-slider-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/room-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/room-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/about/room-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/air-conditioner.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/amenities-bg.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/apple-favicon.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/bathtub-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/call.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/face.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/favicon.ico">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/fb.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/GG.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/header-slider-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover_20241218_155648057.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover_20241219_133924201.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover_20241220090932438.png">
+      <publishTime>12/20/2024 09:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover_20241220090932438_20241220091132315.png">
+      <publishTime>12/20/2024 09:11:32</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner-hover_20241220090932561.png">
+      <publishTime>12/20/2024 09:09:32</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/air-conditioner.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub-hover%281%29.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub-hover_20241217_092627546.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub-hover_20241219_133940698.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/bathtub.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/call-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/call-hover_20241219_133859601.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/call.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/call.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/fb.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/fb_20241220141727391.png">
+      <publishTime>12/20/2024 14:17:27</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/fb_20241220141816896.png">
+      <publishTime>12/20/2024 14:18:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/fb_20241220142219505.png">
+      <publishTime>12/20/2024 14:22:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/GG.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/header-slider-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/INT.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/INTG.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/kitchen-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/kitchen-hover_20241219_134011048.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/kitchen.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/kitchen.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/minibar-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/minibar-hover_20241219_134031036.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/minibar.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/minibar.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/Remove-bg.ai_1732501085934.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/room-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/room-4_20241217_093223603.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/Screenshot 2023-10-02 170956.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shield-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shield-hover_20241219_134051288.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shield.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shield.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shower-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shower-hover_20241219_134121391.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shower.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/shower.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/television-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/television-hover_20241219_134138784.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/television.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/television.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/Ticktok.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/towel-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/towel-hover_20241219_134151698.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/towel.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/towel.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/wifi-connection-signal-symbol.svg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/wifi-hover.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/wifi-hover_20241219_134203281.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/icon/wifi.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/Remove-bg.ai_1732501085934.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-5.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-4.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-5.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room-slider/room-6.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-4.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-5.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/room/room-6.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/amenities-bg.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-1_20241219_133801740.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-1_20241219_171239528.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-1_20241220145902217.jpg">
+      <publishTime>12/20/2024 14:59:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-2.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-2_20241217_095624534.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-2_20241219_133809267.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-2_20241220145909806.jpg">
+      <publishTime>12/20/2024 14:59:09</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/header-slider-3.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/room-1.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/room-1_20241217_094108614.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/room-2_20241217_094448600.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider/room-2_20241217_095036812.jpg">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/Ticktok.png">
+      <publishTime>12/20/2024 08:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/js/booking.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/js/contact.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/js/jqBootstrapValidation.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/js/main.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/mail/contact.php">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/animate/animate.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/animate/animate.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/easing/easing.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/easing/easing.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/font-awesome.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/jquery/jquery-migrate.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/jquery/jquery.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/ajax-loader.gif">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/config.rb">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/fonts/slick.eot">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/fonts/slick.svg">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/fonts/slick.ttf">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/fonts/slick.woff">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick-theme.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick-theme.less">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick-theme.scss">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick.less">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/slick/slick.scss">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/stickyjs/sticky.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/superfish/hoverIntent.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/superfish/superfish.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/superfish/superfish.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/css/tempusdominus-bootstrap-4.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/js/moment-timezone.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/js/moment.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/js/tempusdominus-bootstrap-4.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/wow/wow.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+    <File Include="wwwroot/vendor/wow/wow.min.js">
+      <publishTime>12/10/2024 17:24:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

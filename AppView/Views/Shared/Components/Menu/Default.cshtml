@@ -1,0 +1,67 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@model IEnumerable<AppView.ViewModels.ItemMenu>
+
+
+@{
+	var sessionUsername = HttpContextAccessor.HttpContext?.Session.GetString("TaiKhoan");
+	var sessionRole = HttpContextAccessor.HttpContext?.Session.GetString("Quyen");
+}
+@foreach (var item in Model)
+{
+
+
+	if (item.TrangThai)
+	{
+
+				<li >
+					<a class="nav-link " asp-area="" asp-controller="@item.TenController" asp-action="@item.Url">@item.Name</a>
+				</li>
+
+	}
+}	
+@if (sessionRole == "admin")
+{
+		<li>
+			<a class="nav-link  custom" asp-area="admin" asp-controller="AdminDashboard" asp-action="Index">Quản Lý</a>
+		</li>
+}
+@if (sessionRole == "khachhang")
+{
+		<li >
+			<a class="nav-link  custom" asp-area="" asp-controller="Booking" asp-action="MyBooking">Lịch Sử Đặt Phòng</a>
+		</li>
+		<li><a class="nav-link " asp-area="" asp-controller="login" asp-action="logout">Đăng Xuất</a></li>
+}
+@if (sessionUsername == null)
+{
+
+		<li class="has-children">
+			<a class="nav-link ">Tài Khoản</a>
+			<ul class="dropdown arrow-top " style="width:150px">
+				<li><a class="nav-link " asp-area="" asp-controller="login" asp-action="Login">Đăng Nhập</a></li>
+				<li><a class="nav-link " asp-area="" asp-controller="Signup" asp-action="Signup">Đăng Ký</a></li>
+
+			</ul>
+		</li>
+
+}
+
+<style>
+	.nav-link {
+		font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		color: white; /* Text color */
+		 /* Make text bold */
+		font-size: 15px; /* Adjust font size */
+		font-weight: bolder;
+		text-shadow: 1px 1px 2px black;
+		text-decoration: none; /* Remove underline */
+	}
+
+	.site-navbar-wrap.scrolled .site-navbar .site-navigation .site-menu > li > a {
+		color: rgba(0, 0, 0, 0.6);
+		text-shadow: 1px 1px 2px white;
+	}
+		.nav-link:hover {
+			text-decoration: underline; /* Add underline on hover */
+		}
+</style>

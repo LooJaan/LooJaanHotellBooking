@@ -1,0 +1,95 @@
+﻿@model AppData.TaiKhoann
+
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<script>
+    document.getElementById('TaiKhoan').addEventListener('blur', function() {
+        const username = this.value;
+
+        fetch(`/check-username?username=${username}`)
+            .then(response => response.json())
+            .then(data => {
+                const validationMessage = document.querySelector('span[asp-validation-for="TaiKhoan"]');
+                if (data.exists) {
+                    validationMessage.textContent = "Tài khoản đã tồn tại";
+                    validationMessage.classList.add('text-danger');
+                } else {
+                    validationMessage.textContent = "";
+                }
+            });
+    });
+</script>
+
+
+
+<form asp-action="Create"  method="post" class=" ">
+    <div class="table-container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h8>
+                <span class="fas fa-home"> </span> Trang chủ / Loại phòng / Thêm
+                mới
+            </h8>
+        </div>
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <div class="col-md-6">
+                                        <h6>Tài khoản</h6>
+                                        <label asp-for="TaiKhoan" class="control-label">Account Name</label>
+                                        <input asp-for="TaiKhoan" class="form-control" placeholder="Enter account name" />
+                                        <span asp-validation-for="TaiKhoan" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Mật khẩu</h6>
+                                        <div class="form-group">
+                                            <label asp-for="MatKhau" class="control-label">Password</label>
+                                            <input asp-for="MatKhau" type="password" class="form-control" placeholder="Enter password" />
+                                            <span asp-validation-for="MatKhau" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h6>Quyền</h6>
+                                        <div class="form-group">
+                                            <label asp-for="Quyen" class="control-label"></label>
+                                            <select asp-for="Quyen" class="form-control">
+                                                <option value="">Chọn quyền</option>
+                                                <option value="admin">admin</option>
+                                                <option value="nhanvien">nhanvien</option>
+                                                <option value="khachhang">khachhang</option>
+                                            </select>
+                                            <span asp-validation-for="Quyen" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Xuất bản</h5>
+                                <button type="submit" value="Create Account" class="btn btn-primary mb-2">
+                                    <i class="fas fa-plus"> </i>
+                                    Tạo mới
+                                </button>
+                                <a asp-action="Index" class="btn btn-danger mb-2">
+                                    <i class="fas fa-backward"> </i>
+                                    Trở lại
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

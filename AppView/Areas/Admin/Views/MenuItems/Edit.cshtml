@@ -1,0 +1,89 @@
+﻿@model AppData.MenuItem
+
+@{
+    ViewData["Title"] = "Edit Menu Item";
+}
+
+@* <h1 class="text-center">@ViewData["Title"]</h1> *@
+
+<style>
+	.col-md-6{
+		margin-top:10px;
+	}
+</style>
+<form asp-action="Edit">
+	
+	<table class="table mb-1">
+		<thead>
+			<tr>
+				<th class="text-start">Chỉnh sửa menu</th>
+			</tr>
+		</thead>
+	</table>
+		
+		<div class="table-scrollable">
+			<div class="mt-4">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="row mb-3">
+									<div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+									<input type="hidden" asp-for="ID" />
+									<div class="col-md-12">
+										
+									<label asp-for="Item" class="control-label text-dark">Tên</label>
+										<input asp-for="Item" class="form-control" />
+										<span asp-validation-for="Item" class="text-danger"></span>
+									</div>
+									<div class="col-md-6">
+										
+									<label asp-for="Url" class="control-label text-dark"> Đường dẫn</label>
+										<input asp-for="Url" class="form-control" />
+										<span asp-validation-for="Url" class="text-danger"></span>
+									</div>
+									<div class="col-md-6">
+										
+									<label asp-for="TenController" class="control-label text-dark">Controllor</label>
+										<input asp-for="TenController" class="form-control" />
+										<span asp-validation-for="TenController" class="text-danger"></span>
+									</div>
+									<div class="col-md-6">
+										
+									<label asp-for="TrangThai" class="control-label text-dark">Trạng thái</label>
+										<select asp-for="TrangThai" class="form-control">
+											<option value="true">Hoạt động</option>
+											<option value="false">Không hoạt động</option>
+										</select>
+										<span asp-validation-for="TrangThai" class="text-danger"></span>
+									</div>
+									<div class="col-md-6">
+
+									<label asp-for="OrderIndex" class="control-label text-dark">Vị trí</label>
+										<input asp-for="OrderIndex" class="form-control" />
+										<span asp-validation-for="OrderIndex" class="text-danger"></span>
+									</div>
+								</div>
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">Hành động</h5>
+								<button type="submit" class="btn btn-primary mb-2">
+									<i class="fa fa-save"> </i>
+									Lưu
+								</button>
+								<a asp-action="Index" class="btn btn-danger mb-2">
+								<i class="fa fa-arrow-left"> </i>
+									Trở lại
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

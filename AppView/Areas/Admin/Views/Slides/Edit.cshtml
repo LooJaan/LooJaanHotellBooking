@@ -1,0 +1,83 @@
+﻿@model AppData.Slide
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";  // Đảm bảo đường dẫn chính xác đến layout
+}
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+		<table class="table mb-1">
+			<thead>
+				<tr>
+					<th class="text-start">Chỉnh sửa slide</th>
+				</tr>
+			</thead>
+		</table>
+
+		<div class="table-scrollable">
+			<div class="mt-4">
+				<div class="row">
+
+					<div class="col-md-8">
+						<div class="card">
+							<div class="card-body">
+								<div class="mb-3">
+									<label asp-for="NoiDung" class="control-label text-dark">Nội dung</label>
+									<input asp-for="NoiDung" class="form-control" placeholder="Enter Slide Content" />
+									<span asp-validation-for="NoiDung" class="text-danger"></span>
+								</div>
+
+								<div class="mb-3">
+									<label asp-for="TrangThai" class="control-label text-dark">Trạng thái</label>
+									<select asp-for="TrangThai" class="form-control">
+										<option value="true">Hoạt động</option>
+										<option value="false">Không hoạt động</option>
+									</select>
+									<span asp-validation-for="TrangThai" class="text-danger"></span>
+								</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-body">
+							<h5 class="card-title">Hành động</h5>
+							<button type="submit" class="btn btn-primary mb-2">
+								<i class="fa fa-save"> </i>
+								Lưu
+							</button>
+							<a asp-action="Index" class="btn btn-danger mb-2">
+								<i class="fa fa-arrow-left"> </i>
+								Trở lại
+							</a>
+
+
+							
+							<div>
+								<label class="text-dark">Ảnh hiện tại</label>
+								@if (!string.IsNullOrEmpty(Model.Hinh))
+								{
+									<img src="~/img/slider/@Model.Hinh" alt="Slide" style="max-width: 100%; height: auto; margin-bottom: 10px;" />
+								}
+								else
+								{
+									<p>Chưa có ảnh</p>
+								}
+
+								<label for="imageFile">Image</label>
+								<input type="file" name="imageFile" class="form-control" />
+								<span asp-validation-for="Hinh" class="text-danger"></span>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

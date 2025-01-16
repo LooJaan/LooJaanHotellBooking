@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicons -->
+	<link href="~/img/favicon.ico" rel="icon">
+	<link href="~/img/apple-favicon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" as="style">
+
+	<!-- Vendor CSS File -->
+	<link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="~/vendor/animate/animate.min.css" rel="stylesheet">
+	<link href="~/vendor/slick/slick.css" rel="stylesheet">
+	<link href="~/vendor/slick/slick-theme.css" rel="stylesheet">
+	<link href="~/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.3/dist/sweetalert2.min.css" rel="stylesheet">
+	<link href="~/css/style.css" rel="stylesheet">
+</head><!--/head-->
+
+<body>
+	@* <header id="header" style="background-color: white">
+		@await Component.InvokeAsync("Logo")
+		@await Component.InvokeAsync("LienHe")
+		<div class="mobile-menu-btn"><i style="color:deepskyblue" class="fa fa-bars"></i></div>
+		<nav class="main-menu top-menu">
+			<ul>
+				@await Component.InvokeAsync("Menu")
+			</ul>
+		</nav>
+	</header> *@
+
+	<section>
+		<div class="d-flex">
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-header">
+					Trang Quản Trị
+				</div>
+				<div class="text-center">
+					@* <img alt="Admin avatar" class="rounded-circle" height="50"
+						 src="https://storage.googleapis.com/a1aa/image/vKpEJCzQpCJiIddgz6si6KAeenENbvjAeG3RMRq1GTUzL49nA.jpg"
+						 width="50" />
+					<p>
+						Admin
+					</p> *@
+				</div>
+				<a class="active" href="#" onclick="toggleDropdown('dashboardDropdown',this)">
+					<i class="fa fa-tachometer">
+					</i>
+					Bảng điều khiển 
+					<i class="fa fa-chevron-left rotate-icon"></i>
+				</a>
+				@* <div id="dashboardDropdown" class="dropdown-content">
+					<a asp-action="Index" asp-controller="LoGoes" data-ajax="true" class="menu-item">Logo</a>
+					<a asp-action="Index" asp-controller="Slides" data-ajax="true" class="menu-item">Slide</a>
+					<a asp-action="Index" asp-controller="MenuItems" data-ajax="true" class="menu-item">Menu</a>
+                    <a asp-action="Index" asp-controller="WelComes" data-ajax="true" class="menu-item">Lời Chào</a>
+					<a asp-action="Index" asp-controller="LienHes" data-ajax="true" class="menu-item">Liên Hệ</a>
+					@* <a asp-action="Index" asp-controller="AnhChiTiets" data-ajax="true" class="menu-item"> Ảnh Chi Tiết</a>
+				</div> *@
+
+				<a class="active" href="#" onclick="toggleDropdown('dashboardDropdown2',this)">
+					<i class="fa fa-bed"></i> 
+					Loại Phòng
+					<i class="fa fa-chevron-left rotate-icon"></i>
+				</a>
+				<div id="dashboardDropdown2" class="dropdown-content">
+					<a asp-action="Index" asp-controller="LoaiPhongs" data-ajax="true" class="menu-item">Loại Phòng</a>
+					<a asp-action="Index" asp-controller="LoaiPhongVHH" data-ajax="true" class="menu-item">Loại Phòng Vô Hiệu Hóa</a>
+					
+				</div>
+				
+
+				<a asp-action="Index" asp-controller="DichVus" data-ajax="true" class="menu-item">
+					<i class="fa fa-list"></i> Dịch Vụ
+				</a>
+
+			
+				<a asp-action="Index" asp-controller="DatPhongs" data-ajax="true" class="menu-item">
+					<i class="fa fa-list"></i> Danh sách đặt Phòng
+				</a>
+
+				<a asp-action="Index" asp-controller="TinTucs" data-ajax="true" class="menu-item">
+					<i class="fa fa-newspaper-o"></i> Tin Tức
+				</a>
+
+				@* <a asp-action="Index" asp-controller="TaiKhoanns" data-ajax="true" class="menu-item">
+					<i class="fa fa-user"></i> Tài Khoản
+				</a> *@
+@* 
+				<a href="/Login/Logout" class="menu-item-logout btn btn-danger">
+					Logout
+				</a> *@
+			</div>
+
+			<div class="content flex-grow-1 bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<button class="btn text-light w-10" onclick="toggleSidebar()">
+						<i class="fa fa-bars"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item dropdown">
+								<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+								   data-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+									<img alt="Admin avatar" class="rounded-circle" height="30"
+										 src="https://storage.googleapis.com/a1aa/image/vKpEJCzQpCJiIddgz6si6KAeenENbvjAeG3RMRq1GTUzL49nA.jpg"
+										 width="30" />
+								</a>
+								<div aria-labelledby="navbarDropdown" class=" .collapsed dropdown-menu">
+									<a class="dropdown-item" href="/Login/Logout">
+										<i class="fa fa-sign-out"></i> Đăng xuất
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</nav>
+				<div class="table-container" style="flex-grow: 1;">
+					@RenderBody()
+					<div class="pagination" style="margin-bottom: 5px; justify-content: center;">
+						@if (ViewBag.TotalPages > 1)
+						{
+							var currentPage = ViewBag.CurrentPage;
+							var totalPages = ViewBag.TotalPages;
+
+							// Thay đổi số trang hiển thị
+							int maxVisiblePages = 3; // Số trang hiển thị tối đa
+							int startPage = Math.Max(1, currentPage - maxVisiblePages / 2);
+							int endPage = Math.Min(totalPages, startPage + maxVisiblePages - 1);
+
+							// Điều chỉnh lại startPage nếu endPage không đủ
+							if (endPage - startPage < maxVisiblePages - 1)
+							{
+								startPage = Math.Max(1, endPage - maxVisiblePages + 1);
+							}
+
+							// Thêm liên kết đến trang đầu tiên nếu cần
+							if (startPage > 1)
+							{
+								<a href="@Url.Action("Index", new { page = 1, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate })">1</a>
+								@if (startPage > 2)
+								{
+									<span class="ellipsis">...</span>
+								}
+							}
+
+							// Hiển thị các trang trong khoảng
+							for (var i = startPage; i <= endPage; i++)
+							{
+								if (i == currentPage)
+								{
+									<a class="active">@i</a>
+									// Trang hiện tại
+								}
+								else
+								{
+									<a href="@Url.Action("Index", new { page = i, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate })">@i</a>
+								}
+							}
+
+							// Thêm liên kết đến trang cuối cùng nếu cần
+							if (endPage < totalPages)
+							{
+								if (endPage < totalPages - 1)
+								{
+									<span class="ellipsis">...</span>
+								}
+								<a href="@Url.Action("Index", new { page = totalPages, startDate = ViewBag.StartDate, endDate = ViewBag.EndDate })">@totalPages</a>
+							}
+						}
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</section>
+	
+	<style>
+
+		.ellipsis {
+			margin: 0 10px; /* Khoảng cách giữa các dấu chấm */
+			font-size: 16px; /* Kích thước chữ (có thể điều chỉnh) */
+			display: inline-block;
+			color: black; /* Đảm bảo nó nằm trên cùng một dòng */
+		}
+
+		.pagination {
+			display: flex;
+			align-items:flex-end;
+			justify-content: center; /* Căn giữa */
+			/* margin: 20px 0; */ /* Khoảng cách trên và dưới */
+			margin:auto;
+		}
+
+			.pagination a {
+				padding: 10px 15px; /* Khoảng cách bên trong */
+				margin: 0 5px; /* Khoảng cách giữa các liên kết */
+				text-decoration: none; /* Bỏ gạch chân */
+				color: #ffffff; /* Màu chữ trắng */
+				background-color: #00B2B2; /* Màu nền teal */
+				border: 1px solid #00B2B2; /* Đường viền màu teal */
+				border-radius: 5px; /* Bo góc */
+				transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+			}
+
+				.pagination a:hover {
+					background-color: #008B8B; /* Màu nền khi hover (màu tối hơn) */
+					color: #ffffff; /* Màu chữ trắng khi hover */
+				}
+
+			.pagination .active {
+				background-color: #008B8B; /* Màu nền cho trang hiện tại (màu tối hơn) */
+				color: white; /* Màu chữ cho trang hiện tại */
+				border: 1px solid #006666; /* Đường viền cho trang hiện tại (màu tối hơn) */
+			}
+
+
+		.sidebar.collapsed {
+			transform: translateX(-100%);
+		}
+
+			.sidebar.collapsed .dropdown-content {
+				display: none;
+				/* Ẩn nội dung thả xuống khi thu gọn */
+			}
+
+			.sidebar.collapsed a {
+				text-align: center;
+				padding: 10px 0;
+			}
+
+				.sidebar.collapsed a i {
+					margin-right: 0;
+					/* Ẩn khoảng cách bên phải của icon */
+				}
+
+		.sidebar {
+			height: 100vh;
+			background-color: #343a40;
+			color: white;
+			width: 250px;
+			/* transition: transform 0.4s ease-out; */
+			overflow: hidden;
+			position: fixed;
+			/* Sidebar cố định */
+			z-index: 1000;
+		}
+
+			.sidebar a {
+				color: white;
+				text-decoration: none;
+				display: block;
+				padding: 10px 15px;
+				border-bottom: 1px solid rgb(118, 114, 114);
+			}
+
+				.sidebar a i {
+					margin-right: 10px;
+				}
+
+				.sidebar a:hover {
+					background-color: #495057;
+				}
+
+			.sidebar .active {
+				background-color: #495057;
+			}
+
+			.sidebar .dropdown-content {
+				max-height: 0;
+				overflow: hidden;
+				padding-left: 20px;
+				background-color: #565a5a;
+				transition: max-height 0.5s ease-out, padding 0.3s ease-out;
+			}
+
+			.sidebar .rotate-icon {
+				transition: transform 0.3s ease;
+			}
+
+		.rotate-icon.rotate {
+			transform: rotate(-90deg);
+		}
+
+		.sidebar .dropdown-content a {
+			padding: 8px 15px;
+			font-size: 14px;
+			color: white;
+			border: none;
+			border-bottom: 1px solid rgb(179, 176, 176);
+		}
+
+			.sidebar .dropdown-content a:hover {
+				background-color: #444648;
+			}
+
+		.sidebar .dropdown-content.show {
+			max-height: 300px;
+			/* Đặt giá trị đủ lớn để chứa toàn bộ nội dung */
+		}
+
+
+		.content.flex-grow-1.bg-light {
+			display: flex;
+			flex-direction: column;
+			width: calc(100% - 250px); /* Trừ đi chiều rộng của sidebar */
+			min-height: 95vh; /* Chiều cao tối thiểu bằng viewport */
+			margin-left: 250px; /* Đồng bộ với sidebar */
+			box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+			/* transition: margin-left 0.4s ease-out; */ /* Hiệu ứng mượt */
+		}
+
+		
+
+		/* .content {
+			transition: margin-left 0.2s ease-out; 
+			display: flex;
+			flex-direction: column;
+			min-height: 95vh;
+			margin-left: 250px;
+			box-sizing: border-box;
+		} */
+
+		.sidebar.collapsed + .content.flex-grow-1.bg-light {
+			margin-left: 0; /* Giữ khoảng cách tối thiểu với sidebar */
+			width: calc(100% - 60px);
+		}
+
+		.navbar {
+			background-color: #17a2b8;
+			padding-right: 10px;
+		}
+
+			.navbar .navbar-brand {
+				color: white;
+				font-size: 25px;
+			}
+
+				.navbar .navbar-brand:hover {
+					color: white;
+				}
+
+			.navbar .navbar-toggler {
+				border-color: white;
+			}
+
+			.navbar .navbar-toggler-icon {
+				color: white;
+			}
+
+			.navbar .dropdown-menu {
+				right: 0;
+				left: auto;
+			}
+
+			.navbar .dropdown-menu {
+				transform: scaleY(0);
+				transform-origin: top;
+				transition: transform 0.2s ease-out;
+				display: block;
+				/* Đảm bảo dropdown không bị ẩn */
+				opacity: 0;
+				/* Ẩn dropdown ban đầu */
+			}
+
+				.navbar .dropdown-menu.show {
+					transform: scaleY(1);
+					opacity: 1;
+					/* Hiển thị dropdown khi mở */
+				}
+
+		.table-container {
+			/* background-color: white; */
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.table-scrollable {
+			max-height: 547px;
+			overflow-y: auto;
+			overflow-x:hidden;		}
+
+			.table-scrollable thead {
+				position: sticky;
+				top:-0.5;
+				z-index: 1;
+				/* Đảm bảo header luôn nổi trên tbody */
+			}
+
+		.table th,
+		.table td {
+			vertical-align: middle;
+			max-width: 200px;
+			word-wrap: break-word;
+			/* Tự động xuống dòng khi quá dài */
+			word-break: break-word;
+			/* Đảm bảo từ dài bị ngắt đúng */
+			white-space: normal;
+		}
+
+		.btn-create {
+			background-color: #17a2b8;
+			color: white;
+		}
+
+			.btn-create:hover {
+				background-color: #138496;
+				color: white;
+			}
+
+		.sidebar .sidebar-header {
+			background-color: #46a9b8;
+			height: 62px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 20px;
+			margin-bottom: 5px;
+		}
+	</style>
+	@await RenderSectionAsync("Scripts", required: false)
+	<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.13.3/dist/sweetalert2.all.min.js
+"></script>
+
+	<script>
+		$(function () {
+			var mess = '@TempData["success"]';
+			if (mess != '') {
+				Swal.fire(mess);
+			}
+		});
+
+		function toggleDropdown(id, element) {
+			const dropdown = document.getElementById(id);
+			dropdown.classList.toggle('show');
+
+			const chevronIcon = element.querySelector('.rotate-icon');
+			if (chevronIcon) {
+				chevronIcon.classList.toggle('rotate');
+			}
+		}
+
+		function toggleSidebar() {
+			const sidebar = document.getElementById('sidebar');
+			const content = document.querySelector('.content');
+			sidebar.classList.toggle('collapsed');
+			content.classList.toggle('collapsed');
+		}
+
+		
+	</script>
+
+
+	<!-- Vendor JavaScript File -->
+	<script src="~/vendor/jquery/jquery.min.js"></script>
+	<script src="~/vendor/jquery/jquery-migrate.min.js"></script>
+	<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="~/vendor/easing/easing.min.js"></script>
+	<script src="~/vendor/stickyjs/sticky.js"></script>
+	<script src="~/vendor/superfish/hoverIntent.js"></script>
+	<script src="~/vendor/superfish/superfish.min.js"></script>
+	<script src="~/vendor/wow/wow.min.js"></script>
+	<script src="~/vendor/slick/slick.min.js"></script>
+	<script src="~/vendor/tempusdominus/js/moment.min.js"></script>
+	<script src="~/vendor/tempusdominus/js/moment-timezone.min.js"></script>
+	<script src="~/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Booking Javascript File -->
+	<script src="~/js/booking.js"></script>
+	<script src="~/js/jqBootstrapValidation.min.js"></script>
+
+	<!-- Main Javascript File -->
+	<script src="~/js/main.js"></script>
+</body>
+</html>

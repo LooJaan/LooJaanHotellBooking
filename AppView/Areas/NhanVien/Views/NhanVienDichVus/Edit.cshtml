@@ -1,0 +1,101 @@
+﻿@model AppData.DichVu
+
+
+@{
+    ViewData["Title"] = "Edit DichVus";
+}
+<form asp-action="Edit" enctype="multipart/form-data" method="post" class=" ">
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-start">Chỉnh sửa dịch vụ</th>
+            </tr>
+        </thead>
+    </table>
+
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <!-- Tên dịch vụ -->
+                                    <div class="col-md-6">
+                                        <h6>Tên</h6>
+                                        <label asp-for="Ten" class="control-label">Service Name</label>
+                                        <input asp-for="Ten" class="form-control" placeholder="Enter Service Name" />
+                                        <span asp-validation-for="Ten" class="text-danger"></span>
+                                    </div>
+
+
+                                    <!-- Trạng thái -->
+                                    <div class="col-md-6">
+                                        <h6>Trạng thái</h6>
+                                        <label asp-for="TrangThai" class="control-label">Trạng thái</label>
+                                        <select asp-for="TrangThai" class="form-control">
+                                            <option value="true">Hoạt động</option>
+                                            <option value="false">Không hoạt động</option>
+                                        </select>
+                                        <span asp-validation-for="TrangThai" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <!-- Hình ảnh hiện tại -->
+                                    <div class="col-md-6 order-md-2">
+                                        <h6>Hình ảnh</h6>
+                                        <label class="control-label">Hình ảnh hiện tại</label>
+                                        @if (!string.IsNullOrEmpty(Model.Hinh))
+                                        {
+                                            <div class="mb-3">
+                                                <img src="~/img/icon/@Model.Hinh" alt="Hình dịch vụ" class="img-thumbnail" style="max-height: 150px;" />
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <p class="text-muted">Chưa có hình ảnh.</p>
+                                        }
+                                        <label for="imageFile" class="control-label">Upload Image</label>
+                                        <input type="file" name="imageFile" class="form-control-file" />
+                                        <span asp-validation-for="Hinh" class="text-danger"></span>
+                                    </div>
+
+                                    <!-- Mô tả -->
+                                    <div class="col-md-6 order-md-1">
+                                        <h6>Mô tả</h6>
+                                        <label asp-for="MoTa" class="control-label">Description</label>
+                                        <div class="form-group">
+                                            <textarea asp-for="MoTa" class="form-control description-box" rows="6" placeholder="Enter Description"></textarea>
+                                            <span asp-validation-for="MoTa" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Hành động</h5>
+                                    <button type="submit" class="btn btn-primary mb-2">
+                                        <i class="fa fa-save"> </i>
+                                        Lưu
+                                    </button>
+                                    <a asp-action="Index" class="btn btn-danger mb-2">
+                                        <i class="fa fa-arrow-left"> </i>
+                                        Trở lại
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

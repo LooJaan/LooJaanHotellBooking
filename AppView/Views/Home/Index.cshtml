@@ -1,0 +1,184 @@
+﻿
+@model HomeModel
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!-- Lời chào trên slide -->
+<div class="slide-one-item home-slider owl-carousel">
+        @foreach (var item in Model.Slides.Select((value, index) => new { value, index }))
+        {
+            @if (item.value.TrangThai)
+            {
+            <div class="site-blocks-cover overlay" style="background-image: url(/img/slider/@item.value.Hinh);" data-aos="fade" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-7 text-center" data-aos="fade">
+
+                           @*  <h1 class="mb-2">@item.value.NoiDung</h1> *@
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            }
+        }
+</div>
+
+<!-- Danh sách phòng khách sạn -->
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                <h2 class="mb-5">Danh sách phòng</h2>
+            </div>
+        </div>
+        <div class="row">
+            @await Component.InvokeAsync("Room")
+        </div>
+    </div>
+</div>
+
+<!-- video giới thiệu qua về khách sạn -->
+<div class="site-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+
+                <div class="img-border">
+                    <a href="https://vimeo.com/28959265" class="popup-vimeo image-play">
+                        <span class="icon-wrap">
+                            <span class="icon icon-play"></span>
+                        </span>
+                        <img src="~/libs/images/img_2.jpg" alt="" class="img-fluid">
+                    </a>
+                </div>
+
+                <img src="~/libs/images/img_1.jpg" alt="Image" class="img-fluid image-absolute">
+
+            </div>
+            <div class="col-md-5 ml-auto">
+
+
+                <div class="section-heading text-left">
+                    <h2 class="mb-5">Thông tin</h2>
+                </div>
+                <p class="mb-4">Khách sạn Royal luôn mang vẻ đẹp hiện đại xen lẫn nét cổ kính. Đặt khách sạn sớm nhất để hưởng trọn ưu đãi, hứa hẹn một kì nghỉ với những ...</p>
+                <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Xem Video <span class="icon-arrow-right small"></span></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Danh sách dịch vụ khách sạn -->
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                <h2 class="mb-5">TÍNH NĂNG HIỆN CÓ</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            @await Component.InvokeAsync("DichVu")
+        </div>
+    </div>
+</div>
+<div class="py-5 upcoming-events" style="background-image: url('/libs/images/hero_1.jpg'); background-attachment: fixed;">
+    <div class="container">
+        <div class="row align-items-center text-center">
+            <div class="col">
+                <h2 style="color: black; font-weight: bold; text-shadow: 1px 1px 2px white;">Thời Gian Hiện Tại</h2>
+                <div id="current-time" style="color: black; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 2px white;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateTime() {
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const date = now.toLocaleDateString('vi-VN', options);
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+
+        document.getElementById('current-time').innerText = `${date} - ${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateTime, 1000); // Cập nhật mỗi giây
+    updateTime(); // Gọi hàm ngay lập tức để hiển thị thời gian ngay khi tải trang
+</script>
+<!-- Thông tin phòng -->
+<div class="site-section block-15">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                <h2>Tin Tức</h2>
+            </div>
+        </div>
+
+
+        <div class="nonloop-block-15 owl-carousel">
+            @foreach (var item in Model.TinTuc.Select((value, index) => new { value, index }))
+            {
+                @if (item.value.TrangThai)
+                {
+                    <div class="media-with-text p-md-5">
+                        <div class="img-border-sm mb-4">
+                            <a href="#" class="popup-vimeo image-play">
+                                <img src="~/img/about/@item.value.HinhAnh" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <h2 class="heading mb-0"><a href="#">@item.value.TenTinTucChinh</a></h2>
+
+                        <p>@item.value.NoiDungNgan</p>
+                    </div>
+
+                }
+            }
+        </div>
+
+    </div>
+</div>
+
+@* <div class="py-5 quick-contact-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div>
+                    <span class="icon-room text-white h2 d-block"></span>
+                    <h2>Location</h2>
+                    <p class="mb-0">New York - 2398 <br>  10 Hadson Carl Street</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <span class="icon-clock-o text-white h2 d-block"></span>
+                    <h2>Service Times</h2>
+                    <p class="mb-0">
+                        Wednesdays at 6:30PM - 7:30PM <br>
+                        Fridays at Sunset - 7:30PM <br>
+                        Saturdays at 8:00AM - Sunset
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div>
+                    <span class="icon-comments text-white h2 d-block"></span>
+                    <h2>Get In Touch</h2>
+                    <p class="mb-0">
+                        Email: info@yoursite.com <br>
+                        Phone: (123) 3240-345-9348
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ *@

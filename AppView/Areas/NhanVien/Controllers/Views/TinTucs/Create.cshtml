@@ -1,0 +1,132 @@
+﻿@model AppData.TinTuc
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-action="Create" enctype="multipart/form-data" method="post" class=" ">
+    <div class="table-container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h8>
+                <span class="fas fa-home"> </span> Trang chủ / Loại phòng / Thêm
+                mới
+            </h8>
+        </div>
+        <div class="table-scrollable">
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                                    <div class="col-md-6">
+                                        <h6>Tên tin tức chính</h6>
+                                        <label asp-for="TenTinTucChinh" class="control-label">Main Title</label>
+                                        <input asp-for="TenTinTucChinh" class="form-control" placeholder="Enter main title" />
+                                        <span asp-validation-for="TenTinTucChinh" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Tên tin tức phụ</h6>
+                                        <div class="form-group">
+                                            <label asp-for="TenTinTucPhu" class="control-label">Sub Title</label>
+                                            <input asp-for="TenTinTucPhu" class="form-control" placeholder="Enter subtitle" />
+                                            <span asp-validation-for="TenTinTucPhu" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h6>Nội dung ngắn</h6>
+                                        <div class="form-group">
+                                            <label asp-for="NoiDungNgan" class="control-label">Short Content</label>
+                                            <textarea asp-for="NoiDungNgan" class="form-control" rows="3" placeholder="Enter short content"></textarea>
+                                            <span asp-validation-for="NoiDungNgan" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6>Hình ảnh 1</h6>
+                                        <div class="form-group">
+                                            <label asp-for="HinhAnh1" class="control-label">Image 1</label>
+                                            <input type="file" asp-for="HinhAnh1" class="form-control" />
+                                            <span asp-validation-for="HinhAnh1" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6>Hình ảnh 2</h6>
+                                        <div class="form-group">
+                                            <label asp-for="HinhAnh2" class="control-label">Image 2</label>
+                                            <input type="file" asp-for="HinhAnh2" class="form-control" />
+                                            <span asp-validation-for="HinhAnh2" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h6>Hình ảnh 3</h6>
+                                        <div class="form-group">
+                                            <label asp-for="HinhAnh3" class="control-label">Image 3</label>
+                                            <input type="file" asp-for="HinhAnh3" class="form-control" />
+                                            <span asp-validation-for="HinhAnh3" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Nội dung chi tiết 1</h6>
+                                        <div class="form-group">
+                                            <label asp-for="NoiDungChiTiet1" class="control-label">Detail Content 1</label>
+                                            <textarea asp-for="NoiDungChiTiet1" class="form-control" rows="3" placeholder="Enter detail content 1"></textarea>
+                                            <span asp-validation-for="NoiDungChiTiet1" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Nội dung chi tiết 2</h6>
+                                        <div class="form-group">
+                                            <label asp-for="NoiDungChiTiet2" class="control-label">Detail Content 2</label>
+                                            <textarea asp-for="NoiDungChiTiet2" class="form-control" rows="3" placeholder="Enter detail content 2"></textarea>
+                                            <span asp-validation-for="NoiDungChiTiet2" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Nội dung chi tiết 3</h6>
+                                        <div class="form-group">
+                                            <label asp-for="NoiDungChiTiet3" class="control-label">Detail Content 3</label>
+                                            <textarea asp-for="NoiDungChiTiet3" class="form-control" rows="3" placeholder="Enter detail content 3"></textarea>
+                                            <span asp-validation-for="NoiDungChiTiet3" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Nội dung chi tiết 4</h6>
+                                        <div class="form-group">
+                                            <label asp-for="NoiDungChiTiet4" class="control-label">Detail Content 4</label>
+                                            <textarea asp-for="NoiDungChiTiet4" class="form-control" rows="3" placeholder="Enter detail content 4"></textarea>
+                                            <span asp-validation-for="NoiDungChiTiet4" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <h6>Trạng thái</h6>
+                                        <label asp-for="TrangThai" class="control-label">Trạng thái</label>
+                                        <select asp-for="TrangThai" class="form-control">
+                                            <option value="true">Hoạt động</option>
+                                            <option value="false">Không hoạt động</option>
+                                        </select>
+                                        <span asp-validation-for="TrangThai" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Xuất bản</h5>
+                                <button type="submit" class="btn btn-primary mb-2">
+                                    <i class="fas fa-plus"> </i>
+                                    Tạo mới
+                                </button>
+                                <a asp-action="Index" class="btn btn-danger mb-2">
+                                    <i class="fas fa-backward"> </i>
+                                    Trở lại
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

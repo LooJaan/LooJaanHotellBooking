@@ -1,0 +1,140 @@
+﻿@model IEnumerable<AppData.TinTuc>
+
+@{
+	ViewData["Title"] = "Tin Tức";
+}
+
+@functions {
+	public string TrimContent(string content)
+	{
+		if (string.IsNullOrEmpty(content)) return content;
+
+		var words = content.Split(' ');
+		if (words.Length <= 4) return content; // Nếu có 4 từ trở xuống, trả về nguyên nội dung
+
+		return string.Join(" ", words.Take(4)) + "..."; // Cắt và thêm "..."
+	}
+    }
+
+
+<!-- Bootstrap JS -->
+@* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> *@
+
+<table class="table mb-1">
+	<thead>
+		<tr>
+			<th class="text-start">Quản lý tin tức</th>
+		</tr>
+	</thead>
+</table>
+
+	<table class="table mb-1">
+		<thead>
+			<tr>
+				<th class="text-end">
+					<a asp-action="Create" class="btn btn-success btn-create"><i class="fa fa-plus" aria-hidden="true"></i>  Thêm Mới</a>
+				</th>
+			</tr>
+		</thead>
+	</table>
+
+	<div class="table-scrollable">
+		<table class="table table-bordered ">
+			<thead>
+				<tr>
+					<th class="text-center" style="color: black">
+						Tiêu đề
+					</th>
+					<th class="text-center" style="color: black">
+						Nội dung ngắn
+					</th>
+					<th class="text-center " style="color: black">
+						Trạng thái
+					</th>
+					<th class="text-center " style="color: black">
+						Hành động
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td style="color: black">@Html.DisplayFor(modelItem => item.TenTinTucChinh)</td>
+						<td style="color: black">@TrimContent(item.NoiDungNgan)</td>
+						<td class="text-center">
+							@if (item.TrangThai)
+							{
+								<span class="badge badge-success">Hoạt động</span>
+							}
+							else
+							{
+								<span class="badge badge-secondary">Không hoạt động</span>
+							}
+						</td>
+						<td class="text-center">
+							
+							<div class="d-inline">
+								<!-- Sử dụng class d-inline để hiển thị chúng trên cùng một dòng -->
+								<a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-sm btn-warning me-1">
+									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+								</a>
+								<a asp-action="Details" asp-route-id="@item.ID" class="btn btn-sm btn-info me-1">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</a>
+								<form asp-action="Delete" asp-controller="TinTucs" asp-route-ID="@item.ID" method="post" onsubmit="return confirmDelete();" style="display:inline;">
+									<!-- Thêm style để không chiếm dòng mới -->
+									<button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+								</form>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+        </table>
+	</div>
+
+<script>
+	function confirmDelete() {
+					return confirm('Bạn có chắc chắn muốn xóa không?'); // Hiển thị hộp thoại xác nhận
+	}
+</script>
+<style>
+	.btn-create {
+		background-color: #17a2b8;
+		color: white;
+	}
+
+		.btn-create:hover {
+			background-color: #138496;
+			color: white;
+		}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+.pagination a {
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    margin: 0 5px; /* Khoảng cách giữa các liên kết */
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #ffffff; /* Màu chữ trắng */
+    background-color: #00B2B2; /* Màu nền teal */
+    border: 1px solid #00B2B2; /* Đường viền màu teal */
+    border-radius: 5px; /* Bo góc */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+.pagination a:hover {
+    background-color: #008B8B; /* Màu nền khi hover (màu tối hơn) */
+    color: #ffffff; /* Màu chữ trắng khi hover */
+}
+
+.pagination .active {
+    background-color: #008B8B; /* Màu nền cho trang hiện tại (màu tối hơn) */
+    color: white; /* Màu chữ cho trang hiện tại */
+    border: 1px solid #006666; /* Đường viền cho trang hiện tại (màu tối hơn) */
+}
+</style>

@@ -1,0 +1,135 @@
+﻿@model IEnumerable<AppData.TaiKhoann>
+
+@{
+    ViewData["Title"] = "Account List";
+}
+
+
+<div class="table-container">
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-start">Quản lý tài khoản</th>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-end">
+                    <a asp-action="Create" class="btn btn-success btn-create"><i class="fa fa-plus" aria-hidden="true"></i>  Thêm Mới</a>
+                </th>
+            </tr>
+        </thead>
+    </table>
+
+    <div class="table-scrollable">
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th class="text-center" style="color: black">
+                       Tài khoản
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Mật khẩu
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Hành động
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="color: black">
+                            @Html.DisplayFor(modelItem => item.TaiKhoan)
+                        </td>
+                        <td style="color: black">
+                            @Html.DisplayFor(modelItem => item.MatKhau)
+                        </td>
+                        <td class="text-center">
+                            <div class="d-inline">
+                                <!-- Sử dụng class d-inline để hiển thị chúng trên cùng một dòng -->
+                                <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-warning btn-sm">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                </a>
+                                <form asp-action="Delete" asp-controller="TaiKhoanns" asp-route-ID="@item.ID" method="post" onsubmit="return confirmDelete();" style="display:inline;">
+                                    <!-- Thêm style để không chiếm dòng mới -->
+                                    <button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                           
+                            
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="pagination">
+            @if (ViewBag.TotalPages > 1)
+            {
+                for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <a href="@Url.Action("Index", new { page = i })"
+                       class="@(ViewBag.CurrentPage == i ? "active" : "")">
+                        @i
+                    </a>
+                }
+            }
+        </div>
+    </div>
+</div>
+<script>
+    function confirmDelete() {
+                    return confirm('Bạn có chắc chắn muốn xóa không?'); // Hiển thị hộp thoại xác nhận
+    }
+</script>
+<style>
+    .btn-create {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        .btn-create:hover {
+            background-color: #138496;
+            color: white;
+        }
+
+    .pagination {
+        display: flex;
+        justify-content: center; /* Căn giữa */
+        margin: 20px 0; /* Khoảng cách trên và dưới */
+    }
+
+        .pagination a {
+            padding: 10px 15px; /* Khoảng cách bên trong */
+            margin: 0 5px; /* Khoảng cách giữa các liên kết */
+            text-decoration: none; /* Bỏ gạch chân */
+            color: #ffffff; /* Màu chữ trắng */
+            background-color: #00B2B2; /* Màu nền teal */
+            border: 1px solid #00B2B2; /* Đường viền màu teal */
+            border-radius: 5px; /* Bo góc */
+            transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+        }
+
+            .pagination a:hover {
+                background-color: #008B8B; /* Màu nền khi hover (màu tối hơn) */
+                color: #ffffff; /* Màu chữ trắng khi hover */
+            }
+
+        .pagination .active {
+            background-color: #008B8B; /* Màu nền cho trang hiện tại (màu tối hơn) */
+            color: white; /* Màu chữ cho trang hiện tại */
+            border: 1px solid #006666; /* Đường viền cho trang hiện tại (màu tối hơn) */
+        }
+</style>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

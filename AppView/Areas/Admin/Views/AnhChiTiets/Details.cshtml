@@ -1,0 +1,93 @@
+﻿@model AppData.AnhChiTiet
+
+@{
+	ViewData["Title"] = "Details";
+}
+
+<style>
+
+</style>
+
+
+	<table class="table mb-1">
+		<thead>
+			<tr>
+				<th class="text-start">Thông tin ảnh chi tiết</th>
+			</tr>
+		</thead>
+	</table>
+
+	<div class="table-scrollable">
+		<div class="mt-4">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-body">
+
+						<div class="row">
+							<label class="form-label col  text-dark" for="postTitle">
+								Trạng thái:
+							</label>
+							<div class="col-md-10">
+								@if (Model.TrangThai)
+								{
+									<span class="badge badge-success">Hoạt động</span>
+								}
+								else
+								{
+									<span class="badge badge-secondary">Không hoạt động</span>
+								}
+							</div>
+						</div>
+
+						<div class="row">
+							<label  class="form-label col text-dark" for="postTitle">
+								Loại phòng:
+							</label>
+
+							<div class=" col-md-10 text-dark">
+								@Html.DisplayFor(model => model.LoaiPhong.TenLoaiPhong)
+							</div>
+						</div>
+
+					</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+						<h5 class="card-title">Hành động</h5>
+
+						<a asp-action="Index" class="btn btn-secondary">
+							<i class="fa fa-arrow-left"> </i>
+							Trở lại
+						</a>
+
+						<h5 class="card-title">Hình ảnh</h5>
+						
+						@if (!string.IsNullOrEmpty(Model.Anh))
+						{
+							<img src="~/img/room-slider/@Model.Anh" alt="Image Detail" class="img-fluid"/>
+						}
+						else
+						{
+							<p>No image available</p>
+						}
+					</div>
+					</div>
+				</div>
+			</div>
+
+
+			
+
+		</div>
+
+	</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

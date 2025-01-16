@@ -1,0 +1,96 @@
+﻿@model IEnumerable<AppData.MenuItem>
+
+@{
+    ViewData["Title"] = "Menu Item List";
+}
+
+
+<div class="table-container">
+
+    <table class="table mb-1">
+        <thead>
+            <tr>
+                <th class="text-start">Quản lý menu</th>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="table mb-1">
+        <thead>
+            @* <tr>
+                <th class="text-end">
+                    <a asp-action="Create" class="btn btn-success btn-create">Thêm Mới</a>
+                </th>
+            </tr> *@
+        </thead>
+    </table>
+
+    <div class="table-scrollable">
+        <table class="table table-bordered ">
+            <thead>
+                <tr>
+                    <th class="text-center" style="color: black">
+                       Tên 
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Đường dẫn
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Controller
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Trạng thái
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Vị trí
+                    </th>
+                    <th class="text-center " style="color: black">
+                        Hành động
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.Item)</td>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.Url)</td>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.TenController)</td>
+                        <td style="color: black" class="text-center">@* @Html.DisplayFor(modelItem => item.TrangThai) *@
+                            @if (item.TrangThai)
+                            {
+                                <span class="badge badge-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-secondary">Không hoạt động</span>
+                            }
+                        </td>
+                        <td style="color: black">@Html.DisplayFor(modelItem => item.OrderIndex)</td>
+                        <td class="text-center">
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.ID">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            </a>
+                           @*  <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.ID">
+                                <i class="fas fa-trash"></i>
+                            </a> *@
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .btn-create {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        .btn-create:hover {
+            background-color: #138496;
+            color: white;
+        }
+</style>
+
