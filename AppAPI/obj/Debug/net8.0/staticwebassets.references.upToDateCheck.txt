@@ -958,3 +958,4 @@ E:\HotelBooking\AppView\obj\Debug\net8.0\staticwebassets.build.json
 E:\HotelBooking\AppView\obj\Debug\net8.0\staticwebassets.build.json
 E:\HotelBooking\AppView\obj\Debug\net8.0\staticwebassets.build.json
 E:\HotelBooking\AppView\obj\Debug\net8.0\staticwebassets.build.json
+E:\HotelBooking\AppView\obj\Debug\net8.0\staticwebassets.build.json

@@ -128,8 +128,8 @@
                         <h5>Thông Tin Chi Tiết Loại Phòng</h5>
                         <div class="form-group">
                             <div class="row">
-                                <div class="col-sm-3">Tên Loại Phòng:</div>
-                                <div class="col-sm-9">@Model?.TenLoaiPhong</div>
+                            <div class="col-sm-3" style="font-weight: bold">Tên Loại Phòng:</div>
+                            <div class="col-sm-9" style="font-weight: bold">@Model?.TenLoaiPhong</div>
                             </div>
                         </div>
 
@@ -152,15 +152,15 @@
                         <div class="form-group">
                             <div class="info-box">
                             <div class="row mb-3">
-                                <div class="col-sm-3" style="font-weight: bold; color: black;">Giá Gốc:</div>
-                                <div class="col-sm-3" style="font-size: 16px; text-align: right; color: black;">
-                                    @String.Format("{0:N0}", Model?.GiaGoc)
+                                <div class="col-sm-3" style="font-weight: bold; color: black; text-align:left">Giá Gốc:</div>
+                                <div class="col-sm-3" style="font-size: 16px; text-align: left; color: black;">
+                                    @String.Format("{0:N0}", Model?.GiaGoc)  VNĐ
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <div class="col-sm-3" style="font-weight: bold; color: black;">Giá Giảm Giá:</div>
-                                <div class="col-sm-3" style="font-size: 16px; text-align: right; color: black;">
-                                    @String.Format("{0:N0}", Model?.GiaGiamGia)
+                                <div class="col-sm-3" style="font-weight: bold; color: black; text-align:left">Giá Giảm Giá:</div>
+                                <div class="col-sm-3" style="font-size: 16px; text-align: left; color: black;">
+                                    @String.Format("{0:N0}", Model?.GiaGiamGia) VNĐ
                                 </div>
                             </div>
 
@@ -198,7 +198,7 @@
                         <div class="publish-section">
 
                            @*  <button type="submit" class="btn btn-custom">Điều Chỉnh</button> *@
-                            <button asp-action="Index" type="button" class="btn btn-danger">Quay Lại</button>
+                            <a asp-action="Index" type="button" class="btn btn-danger">Quay Lại</a>
                         </div>
                         <div class="row">
                             <div class="col-sm-3">Ảnh:</div>

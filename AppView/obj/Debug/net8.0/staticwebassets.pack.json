@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\faviconn.ico",
-      "PackagePath": "staticwebassets\\faviconn.ico"
-    },
-    {
       "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\GG.png",
       "PackagePath": "staticwebassets\\img\\GG.png"
     },
@@ -165,8 +161,20 @@
       "PackagePath": "staticwebassets\\img\\amenities-bg.jpg"
     },
     {
-      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple-favicon.png",
-      "PackagePath": "staticwebassets\\img\\apple-favicon.png"
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon.png",
+      "PackagePath": "staticwebassets\\img\\apple_favicon.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112138195.png",
+      "PackagePath": "staticwebassets\\img\\apple_favicon_20250117112138195.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112543215.png",
+      "PackagePath": "staticwebassets\\img\\apple_favicon_20250117112543215.png"
+    },
+    {
+      "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112629830.png",
+      "PackagePath": "staticwebassets\\img\\apple_favicon_20250117112629830.png"
     },
     {
       "Id": "E:\\HotelBooking\\AppView\\wwwroot\\img\\bathtub-hover.png",

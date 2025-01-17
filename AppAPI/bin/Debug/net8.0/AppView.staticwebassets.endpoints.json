@@ -345,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -353,22 +353,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },
     {
-      "Route": "faviconn.ze7s5pskdq.ico",
+      "Route": "faviconn.l6358rqbmq.ico",
       "AssetFile": "faviconn.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -382,7 +382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -390,21 +390,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         },
         {
           "Name": "label",
@@ -3365,45 +3365,8 @@
       ]
     },
     {
-      "Route": "img/apple-favicon.png",
-      "AssetFile": "img/apple-favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
-      "Route": "img/apple-favicon.ze7s5pskdq.png",
-      "AssetFile": "img/apple-favicon.png",
+      "Route": "img/apple_favicon.l6358rqbmq.png",
+      "AssetFile": "img/apple_favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3416,7 +3379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3424,25 +3387,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         },
         {
           "Name": "label",
-          "Value": "img/apple-favicon.png"
+          "Value": "img/apple_favicon.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon.png",
+      "AssetFile": "img/apple_favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },
@@ -3707,7 +3707,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3715,22 +3715,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },
     {
-      "Route": "img/favicon.ze7s5pskdq.ico",
+      "Route": "img/favicon.l6358rqbmq.ico",
       "AssetFile": "img/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3744,7 +3744,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3752,21 +3752,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         },
         {
           "Name": "label",

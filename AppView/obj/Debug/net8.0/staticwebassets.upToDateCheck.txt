@@ -1,7 +1,6 @@
 wwwroot\css\hover-style.css
 wwwroot\css\site.css
 wwwroot\css\style.css
-wwwroot\faviconn.ico
 wwwroot\img\about\about-1.jpg
 wwwroot\img\about\about-1_20250116152729414.jpg
 wwwroot\img\about\about-2.jpg
@@ -34,7 +33,10 @@ wwwroot\img\about\room-6_20250108083706240_20250108084027001.jpg
 wwwroot\img\about\room-6_20250108084026771.jpg
 wwwroot\img\air-conditioner.png
 wwwroot\img\amenities-bg.jpg
-wwwroot\img\apple-favicon.png
+wwwroot\img\apple_favicon.png
+wwwroot\img\apple_favicon_20250117112138195.png
+wwwroot\img\apple_favicon_20250117112543215.png
+wwwroot\img\apple_favicon_20250117112629830.png
 wwwroot\img\bathtub-hover.png
 wwwroot\img\call.png
 wwwroot\img\face.png

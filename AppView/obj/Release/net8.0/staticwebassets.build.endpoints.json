@@ -331,88 +331,6 @@
       ]
     },
     {
-      "Route": "faviconn.ico",
-      "AssetFile": "faviconn.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
-      "Route": "faviconn.ze7s5pskdq.ico",
-      "AssetFile": "faviconn.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        },
-        {
-          "Name": "label",
-          "Value": "faviconn.ico"
-        }
-      ]
-    },
-    {
       "Route": "img/GG.ennvlhxywr.png",
       "AssetFile": "img/GG.png",
       "Selectors": [],
@@ -3365,45 +3283,8 @@
       ]
     },
     {
-      "Route": "img/apple-favicon.png",
-      "AssetFile": "img/apple-favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
-      "Route": "img/apple-favicon.ze7s5pskdq.png",
-      "AssetFile": "img/apple-favicon.png",
+      "Route": "img/apple_favicon.l6358rqbmq.png",
+      "AssetFile": "img/apple_favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3416,7 +3297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3424,25 +3305,308 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         },
         {
           "Name": "label",
-          "Value": "img/apple-favicon.png"
+          "Value": "img/apple_favicon.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon.png",
+      "AssetFile": "img/apple_favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112138195.png",
+      "AssetFile": "img/apple_favicon_20250117112138195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:21:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112138195.ppexezpn3r.png",
+      "AssetFile": "img/apple_favicon_20250117112138195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:21:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ppexezpn3r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ="
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112138195.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112543215.4mswcprljs.png",
+      "AssetFile": "img/apple_favicon_20250117112543215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:25:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mswcprljs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112543215.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112543215.png",
+      "AssetFile": "img/apple_favicon_20250117112543215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:25:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112629830.4mswcprljs.png",
+      "AssetFile": "img/apple_favicon_20250117112629830.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:26:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mswcprljs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112629830.png"
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112629830.png",
+      "AssetFile": "img/apple_favicon_20250117112629830.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:26:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
         }
       ]
     },
@@ -3707,7 +3871,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3715,22 +3879,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },
     {
-      "Route": "img/favicon.ze7s5pskdq.ico",
+      "Route": "img/favicon.l6358rqbmq.ico",
       "AssetFile": "img/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3744,7 +3908,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -3752,21 +3916,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         },
         {
           "Name": "label",

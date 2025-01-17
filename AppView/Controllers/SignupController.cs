@@ -21,8 +21,13 @@ namespace AppView.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public async Task<IActionResult> Signup([Bind("Email,TaiKhoan,MatKhau")] TaiKhoann taiKhoann)
+		public async Task<IActionResult> Signup([Bind("Email,TaiKhoan,MatKhau")] TaiKhoann taiKhoann, string MatKhauNhapLai)
 		{
+			if (taiKhoann.MatKhau != MatKhauNhapLai)
+			{
+				ViewData["PasswordMismatchError"] = "Mật khẩu nhập lại không khớp.";
+				return View(taiKhoann);
+			}
 			if (ModelState.IsValid)
 			{
 				var existingEmail = await _context.TaiKhoans.FirstOrDefaultAsync(t => t.Email == taiKhoann.Email);

@@ -58,21 +58,21 @@
    
 
     <div class="table-container">
-        <h2 style="background-color:#eafdff;padding:25px" class="text-center">Lịch Đặt Phòng của Bạn</h2>
+        <h2 style="background-color:#eafdff;padding:25px" class="text-center">Lịch sử đặt phòng</h2>
         
         <!-- Bao bọc bảng bằng div -->
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
-                    <th>Loại Phòng</th>
-                    <th>Ngày Nhận</th>
-                    <th>Ngày Trả</th>
-                    <th>Số Lượng Phòng</th>
-                    <th>Ghi Chú</th>
+                    <th style="text-align:center">Loại Phòng</th>
+                    <th style="text-align:center">Ngày Nhận</th>
+                    <th style="text-align:center">Ngày Trả</th>
+                    <th style="text-align:center">Số Lượng Phòng</th>
+                    <th style="text-align:center">Ghi Chú</th>
                     <th class="text-center ">
                         Trạng thái
                     </th>
-                    <th class="text-center">Actions</th>
+                    <th class="text-center">Hành động</th>
                    
                 </tr>
             </thead>
@@ -81,7 +81,7 @@
                 @foreach (var booking in Model)
                 {
                     <tr>
-                        <td>
+                        <td style="text-align:center">
                             @if (booking.LoaiPhongID.HasValue && ViewBag.LoaiPhongs.ContainsKey(booking.LoaiPhongID.Value))
                             {
                                 @ViewBag.LoaiPhongs[booking.LoaiPhongID.Value]
@@ -91,9 +91,9 @@
                                 <span>Không xác định</span>
                             }
                         </td>
-                        <td>@booking.NgayNhan.ToString("dd/MM/yyyy")</td>
-                        <td>@booking.NgayTra.ToString("dd/MM/yyyy")</td>
-                        <td>@booking.SoLuongPhong</td>
+                        <td style="text-align:center">@booking.NgayNhan.ToString("dd/MM/yyyy")</td>
+                        <td style="text-align:center">@booking.NgayTra.ToString("dd/MM/yyyy")</td>
+                        <td style="text-align:center">@booking.SoLuongPhong</td>
                         <td>@booking.GhiChu</td>
                         <td class="text-center">
                             @if (booking.TrangThai)
@@ -128,6 +128,6 @@ else
 
 <script>
     function confirmDelete() {
-                    return confirm('Bạn có chắc chắn muốn xóa không?'); // Hiển thị hộp thoại xác nhận
+                    return confirm('Bạn có chắc chắn muốn hủy không?'); // Hiển thị hộp thoại xác nhận
     }
 </script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c0KFHeHabzLJw4jce084WdTydumTMmZyZCrkFAOUN34=",
+  "Hash": "i+f6DYs05FjaTlVY2g0Nkb4hUSqzzdc5yyp5enURBS4=",
   "Source": "AppView",
   "BasePath": "_content/AppView",
   "Mode": "Default",
@@ -120,27 +120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
-    },
-    {
-      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\faviconn.ico",
-      "SourceId": "AppView",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\HotelBooking\\AppView\\wwwroot\\",
-      "BasePath": "_content/AppView",
-      "RelativePath": "faviconn#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ze7s5pskdq",
-      "Integrity": "dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\faviconn.ico"
     },
     {
       "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-1.jpg",
@@ -815,12 +794,12 @@
       "OriginalItemSpec": "wwwroot\\img\\amenities-bg.jpg"
     },
     {
-      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple-favicon.png",
+      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon.png",
       "SourceId": "AppView",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\HotelBooking\\AppView\\wwwroot\\",
       "BasePath": "_content/AppView",
-      "RelativePath": "img/apple-favicon#[.{fingerprint}]?.png",
+      "RelativePath": "img/apple_favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -829,11 +808,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ze7s5pskdq",
-      "Integrity": "dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=",
+      "Fingerprint": "l6358rqbmq",
+      "Integrity": "XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\apple-favicon.png"
+      "OriginalItemSpec": "wwwroot\\img\\apple_favicon.png"
+    },
+    {
+      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112138195.png",
+      "SourceId": "AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HotelBooking\\AppView\\wwwroot\\",
+      "BasePath": "_content/AppView",
+      "RelativePath": "img/apple_favicon_20250117112138195#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ppexezpn3r",
+      "Integrity": "vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\apple_favicon_20250117112138195.png"
+    },
+    {
+      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112543215.png",
+      "SourceId": "AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HotelBooking\\AppView\\wwwroot\\",
+      "BasePath": "_content/AppView",
+      "RelativePath": "img/apple_favicon_20250117112543215#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4mswcprljs",
+      "Integrity": "JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\apple_favicon_20250117112543215.png"
+    },
+    {
+      "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112629830.png",
+      "SourceId": "AppView",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HotelBooking\\AppView\\wwwroot\\",
+      "BasePath": "_content/AppView",
+      "RelativePath": "img/apple_favicon_20250117112629830#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4mswcprljs",
+      "Integrity": "JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\apple_favicon_20250117112629830.png"
     },
     {
       "Identity": "E:\\HotelBooking\\AppView\\wwwroot\\img\\bathtub-hover.png",
@@ -913,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ze7s5pskdq",
-      "Integrity": "dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=",
+      "Fingerprint": "l6358rqbmq",
+      "Integrity": "XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
@@ -18909,88 +18951,6 @@
       ]
     },
     {
-      "Route": "faviconn.ico",
-      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\faviconn.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
-      "Route": "faviconn.ze7s5pskdq.ico",
-      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\faviconn.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
-        },
-        {
-          "Name": "label",
-          "Value": "faviconn.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
       "Route": "img/about/about-1.7x6gwub749.jpg",
       "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\about\\about-1.jpg",
       "Selectors": [],
@@ -21615,8 +21575,8 @@
       ]
     },
     {
-      "Route": "img/apple-favicon.png",
-      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple-favicon.png",
+      "Route": "img/apple_favicon.l6358rqbmq.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21625,7 +21585,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -21633,48 +21593,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
-        }
-      ]
-    },
-    {
-      "Route": "img/apple-favicon.ze7s5pskdq.png",
-      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple-favicon.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21684,15 +21607,298 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "label",
-          "Value": "img/apple-favicon.png"
+          "Value": "img/apple_favicon.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112138195.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112138195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:21:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112138195.ppexezpn3r.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112138195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:21:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ppexezpn3r"
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112138195.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vVIy4TyCgrAADnfkmedM4LgotL/nQwIjZ40sWFdfMpQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112543215.4mswcprljs.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112543215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mswcprljs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112543215.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112543215.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112543215.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112629830.4mswcprljs.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112629830.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:26:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mswcprljs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/apple_favicon_20250117112629830.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
+        }
+      ]
+    },
+    {
+      "Route": "img/apple_favicon_20250117112629830.png",
+      "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\apple_favicon_20250117112629830.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:26:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCeWBlT1HbTdEHuihxslnhTFMLU91j7Bvnp7K2TNnug="
         }
       ]
     },
@@ -21953,7 +22159,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -21961,11 +22167,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21975,12 +22181,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },
     {
-      "Route": "img/favicon.ze7s5pskdq.ico",
+      "Route": "img/favicon.l6358rqbmq.ico",
       "AssetFile": "E:\\HotelBooking\\AppView\\wwwroot\\img\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21990,7 +22196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1929"
+          "Value": "5478"
         },
         {
           "Name": "Content-Type",
@@ -21998,11 +22204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc=\""
+          "Value": "\"XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 13 Jan 2025 07:13:18 GMT"
+          "Value": "Fri, 17 Jan 2025 03:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22012,7 +22218,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ze7s5pskdq"
+          "Value": "l6358rqbmq"
         },
         {
           "Name": "label",
@@ -22020,7 +22226,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dQJ6MZyEAJ/JKfEbywrMfhlnmQoq18Hpft7uYMaoSTc="
+          "Value": "sha256-XVNiRyVK3QU+BrnFlxrYDdrF7vE96wKRpKfTCwyxgoM="
         }
       ]
     },

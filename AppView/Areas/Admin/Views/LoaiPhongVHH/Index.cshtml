@@ -44,16 +44,16 @@
 			@foreach (var item in Model)
 			{
 				<tr>
-					<td style="color: black">@Html.DisplayFor(modelItem => item.TenLoaiPhong)</td>
+					<td style="color: black;text-align: center;">@Html.DisplayFor(modelItem => item.TenLoaiPhong)</td>
 					<td class="text-center">
 						<img src="~/img/room/@item.Anh" alt="Image" class="img-fluid" style="max-width: 100px;" />
 
 					</td>
-					<td style="color: black; text-align: center; font-weight: bold; font-size: 16px;">
-						@String.Format("{0:N0}", item.GiaGoc)
+					<td style="color: black; text-align: center; font-size: 16px;">
+						@String.Format("{0:N0}", item.GiaGoc) VNĐ
 					</td>
-					<td style="color: black; text-align: center; font-weight: bold; font-size: 16px;">
-						@String.Format("{0:N0}", item.GiaGiamGia)
+					<td style="color: black; text-align: center; font-size: 16px;">
+						@String.Format("{0:N0}", item.GiaGiamGia) VNĐ
 					</td>
 
 					<td class="text-center">
@@ -66,13 +66,13 @@
 							<span class="badge badge-secondary">Không hoạt động</span>
 						}
 					</td>
-					<td style="color: black">@Html.DisplayFor(modelItem => item.SoPhongCon)</td>
+					<td style="color: black;text-align: center;">@Html.DisplayFor(modelItem => item.SoPhongCon)</td>
 					<td class="text-center">
 						<div class="d-inline">
 							<!-- Sử dụng class d-inline để hiển thị chúng trên cùng một dòng -->
 							<form asp-action="KhoiPhuc" asp-controller="LoaiPhongVHH" asp-route-ID="@item.MaLoaiPhong" method="post" onsubmit="return confirmDelete();" style="display:inline;">
 								<!-- Thêm style để không chiếm dòng mới -->
-								<button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+								<button class="btn btn-success btn-sm" type="submit">Kích hoạt lại</button>
 							</form>
 						</div>
 
