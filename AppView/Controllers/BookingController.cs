@@ -112,7 +112,8 @@ namespace AppView.Controllers
 
 				decimal giaPhong = loaiPhong.GiaGoc; // Giả sử thuộc tính GiaGoc có trong bảng LoaiPhong
 				decimal tongGia = giaPhong * datPhong.SoLuongPhong.Value; // Tính tổng giá
-
+				string giaPhongFormatted = giaPhong.ToString("N0");  // Ví dụ: 1.500.000
+				string tongGiaFormatted = tongGia.ToString("N0");
 				// Gửi email xác nhận đến địa chỉ email của khách hàng
 				string toEmail = emails.Email; // Sử dụng email khách hàng nhập
 				string bookingDetails = $"<h1>Xác Nhận Đặt Phòng Thành Công</h1>" +
@@ -123,8 +124,8 @@ namespace AppView.Controllers
 					$"<p>Ngày nhận phòng: {datPhong.NgayNhan}</p>" +
 					$"<p>Ngày trả phòng: {datPhong.NgayTra}</p>" +
 					$"<p>Số đêm: {datPhong.SoLuongPhong}</p>" +
-					$"<p>Giá phòng: {giaPhong} VNĐ/đêm</p>" +
-					$"<p>Tổng cộng: {tongGia} VNĐ</p>" +
+					$"<p>Giá phòng: {giaPhongFormatted} VNĐ/đêm</p>" +
+					$"<p>Tổng cộng: {tongGiaFormatted} VNĐ</p>" +
 					$"<p>Nếu bạn cần thêm thông tin hoặc có yêu cầu đặc biệt, vui lòng liên hệ với chúng tôi qua số điện thoại.</p>" +
 					$"<p>Chúng tôi rất mong được chào đón bạn tại ROYAL và hy vọng bạn sẽ có một kỳ nghỉ tuyệt vời!</p>" +
 					$"<p>Trân trọng,</p>";
